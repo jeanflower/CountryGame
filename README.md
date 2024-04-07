@@ -21,4 +21,5 @@ Use the nextjs framework to writes client-side HTML and server-side fetch calls 
  - Deploy the nextjs app on GCP
  - Use typescript instead of javascript
  - Styling using bootstrap and CSS
+ - Connect the back-end to a database
 
