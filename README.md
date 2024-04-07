@@ -11,6 +11,9 @@ A deployed version of the game can be found at https://python-project-service-2l
 
 There is a node app which can be run directly, and uses fetch to call the python-backed API.  Results are printed to the console.
 
+The app queries for start and end countries and prints a path
+![nodejsScreenshot](nodejsappScreenshot.png)
+
 ## jswebapp
 
 This is a futile attempt to call the API using the same javascript used for the nodejs app but inserting the result into an HTML page; porting the nodejs code into a web app.  This is doomed because of CORS rules - for security, browsers prohibit the calling of an unrelated API directly from the client code.
