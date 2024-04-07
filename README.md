@@ -18,9 +18,14 @@ The app queries for start and end countries and prints a path
 
 This is a futile attempt to call the API using the same javascript used for the nodejs app but inserting the result into an HTML page; porting the nodejs code into a web app.  This is doomed because of CORS rules - for security, browsers prohibit the calling of an unrelated API directly from the client code.
 
+The website can only offer a fake response
+![jswebScreenshot](jswebScreenshot.png)
+
 ## nextjsapp
 
 Use the nextjs framework to writes client-side HTML and server-side fetch calls to build a working web app that uses the python API call on the back end.
+
+![nextjsScreenshot](nextjsScreenshot.png)
 
 ## more steps
 
