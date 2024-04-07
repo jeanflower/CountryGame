@@ -5,7 +5,7 @@ This repo is about delivering a python-backed compute result through a javascrip
 The pythonapp folder includes an algorithm in app/main.py, served using uvicorn. There are three scripts for running the python; one running directly, the second building a docker container, and the third builds and deploys a docker container in Google Cloud Platform (using Cloud Build and Cloud Run).
 
 A deployed version of the game can be found at https://python-project-service-2ldm6ft3ha-uc.a.run.app/game
-(pythonappScreenshot.png)
+![pythonScreenshot](pythonappScreenshot.png)
 
 ## nodeapp
 
