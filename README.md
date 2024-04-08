@@ -46,7 +46,7 @@ The pythonapp folder includes an algorithm in app/main.py, served using uvicorn.
 
 A deployed version of the game can be found at https://python-project-service-2ldm6ft3ha-uc.a.run.app/game
 
-<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/pythonappScreenshot.png" width=50% height=50%>
+<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/pythonappScreenshot.png" width=90% height=90%>
 
 ## nodeapp
 
