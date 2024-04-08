@@ -34,7 +34,7 @@ You can run the page by loading the HTML file into a browser, or you can visit a
 
 React is a javascript front-end library created by Facebook.  React apps are built out of react components, and use JSX syntax, a kind of hybrid between HTML and js. They are designed to be .. reactive.  Have a look at ```npm test``` as well.
 
-<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/reactappScreenshot.png" width=30% height=30%>
+<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/reactappScreenshot.png" width=80% height=80%>
 
 # Backend
 
