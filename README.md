@@ -27,10 +27,13 @@ Use the nextjs framework to writes client-side HTML and server-side fetch calls 
 
 ![nextjsScreenshot](nextjsScreenshot.png)
 
+## mongodbapp
+
+A nodejs app which connects to a specified mongodb to perform some CRUD (create read update delete) operations.  The mongo database requires a database called crudExample. Create a .env.local file in the monfoapp folder (your env file will be gitignored) and follow the pattern of .env.sample, to point the code at your mongoDB location.
+
 ## more steps
 
  - Deploy the nextjs app on GCP
  - Use typescript instead of javascript
  - Styling using bootstrap and CSS
- - Connect the back-end to a database
 
