@@ -17,11 +17,11 @@ export default function Home() {
       <h1>Countries and paths</h1>
       <br/>
       <label>Start:</label>
-      <input type="text" id="start" name="start" required size="20" />
+      <input type="text" id="start" />
       
       <br/>
       <label>End:</label>
-      <input type="text" id="end" name="end" required size="20" />
+      <input type="text" id="end" />
   
       <br/>
       <button type="button" onClick={async () => {
