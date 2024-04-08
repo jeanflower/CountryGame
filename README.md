@@ -6,7 +6,7 @@ This repo is about delivering a python-backed compute result through a javascrip
 
 [Link to folder](jswebapp)
 
-This includes an HTML file for our gamel input fields to fill in and a button to click.  
+This includes an HTML file for our game with input fields to fill in and a button to click.  
 
 The response as shown when the button is clicked is computed on the client; in the browser.
 
