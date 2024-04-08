@@ -22,10 +22,11 @@ You can run the page by loading the HTML file into a browser, or you can visit a
 
 [Link to folder](stylingcssapp)
 
-A demo of various css styling controls.  Refer to https://www.w3schools.com/css/ for more.  To run, load index.html into a browser and explore making changes to mystyles.css.
-
+A demo of various css styling controls.  Refer to https://www.w3schools.com/css/ for more.  To run, load index.html into a browser and explore making changes.
 
 <img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/stylingcssScreenshot.png" width=50% height=50%>
+
+You can run the page by loading the HTML file into a browser, or you can visit a statically-hosted version of the file [here](https://storage.googleapis.com/static-website-bucket2/stylingcssapp/index.html)
 
 ## reactapp
 
