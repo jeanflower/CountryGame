@@ -6,9 +6,12 @@ This repo is about delivering a python-backed compute result through a javascrip
 
 [Link to folder](jswebapp)
 
-This is a futile attempt to call the API using the same javascript used for the nodejs app but inserting the result into an HTML page; porting the nodejs code into a web app.  This is doomed because of CORS rules - for security, browsers prohibit the calling of an unrelated API directly from the client code.
+This includes an HTML file for our gamel input fields to fill in and a button to click.  
 
-The website can only offer a fake response
+The response as shown when the button is clicked is computed on the client; in the browser.
+
+The client is unable to get a response back from any server-side logic to compute a result; for security, browsers prohibit the calling of an unrelated API directly from client code.  They instead issue CORS errors.
+
 ![jswebScreenshot](jswebScreenshot.png)
 
 ## stylingcssapp
