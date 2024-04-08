@@ -28,7 +28,8 @@ A demo of various css styling controls.  Refer to https://www.w3schools.com/css/
 [Link to folder](reactapp)
 
 React is a javascript front-end library created by Facebook.  React apps are built out of react components, and use JSX syntax, a kind of hybrid between HTML and js. They are designed to be .. reactive.  Have a look at ```npm test``` as well.
-![reactapp](reactappScreenshot.png)
+
+<img src="https://github.com/jeanflower/CountryGame/blob/main/reactappScreenshot.png" width=50% height=50%>
 
 # Backend
 
@@ -39,7 +40,8 @@ React is a javascript front-end library created by Facebook.  React apps are bui
 The pythonapp folder includes an algorithm in app/main.py, served using uvicorn. There are three scripts for running the python; one running directly, the second building a docker container, and the third builds and deploys a docker container in Google Cloud Platform (using Cloud Build and Cloud Run).
 
 A deployed version of the game can be found at https://python-project-service-2ldm6ft3ha-uc.a.run.app/game
-![pythonScreenshot](pythonappScreenshot.png)
+
+<img src="https://github.com/jeanflower/CountryGame/blob/main/pythonappScreenshot.png" width=50% height=50%>
 
 ## nodeapp
 
@@ -48,7 +50,8 @@ A deployed version of the game can be found at https://python-project-service-2l
 There is a node app which can be run directly, and uses fetch to call the python-backed API.  Results are printed to the console.
 
 The app queries for start and end countries and prints a path
-![nodejsScreenshot](nodejsappScreenshot.png)
+
+<img src="https://github.com/jeanflower/CountryGame/blob/main/nodejsappScreenshot.png" width=50% height=50%>
 
 ## mongoapp
 
@@ -64,7 +67,7 @@ A nodejs app which connects to a specified mongodb (mongo database) to perform s
 
 Use the nextjs framework to writes client-side HTML and server-side fetch calls to build a working web app that uses the python API call on the back end.  A deployed version of the app can be found at https://nextjs-project-service-qzwnizxtoa-uc.a.run.app/
 
-![nextjsScreenshot](nextjsScreenshot.png)
+<img src="https://github.com/jeanflower/CountryGame/blob/main/nextjsScreenshot.png" width=50% height=50%>
 
 # More steps
 
