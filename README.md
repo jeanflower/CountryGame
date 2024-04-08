@@ -12,7 +12,7 @@ When the button is clicked, a response is computed on the client; in the browser
 
 The client is unable to get a response back from any server-side logic to compute a result; for security, browsers prohibit the calling of an unrelated API directly from client code.  They instead issue CORS errors.
 
-![jswebScreenshot](jswebScreenshot.png)
+<img src="https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png" width=50% height=50%>
 
 ## stylingcssapp
 
