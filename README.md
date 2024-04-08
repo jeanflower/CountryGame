@@ -20,7 +20,8 @@ The client is unable to get a response back from any server-side logic to comput
 
 A demo of various css styling controls.  Refer to https://www.w3schools.com/css/ for more.  To run, load index.html into a browser and explore making changes to mystyles.css.
 
-![stylingcssScreenshot](stylingcssScreenshot.png)
+
+<img src="https://github.com/jeanflower/CountryGame/blob/main/stylingcssScreenshot.png" width=50% height=50%>
 
 ## reactapp
 
