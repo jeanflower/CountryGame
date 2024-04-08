@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Every page has a 'head' element -->
 <head>
   <meta charset="UTF-8">
   <title>Countries and paths</title>
   <script src="./index.js" defer></script>
 </head>
+<!-- Every page has a 'body' element -->
 <body>
+  <!-- heading level 1 -->
   <h1>Countries and paths</h1>
   
-  <label for="name">Start:</label>
-  <input type="text" id="start" name="start" required size="20" />
+  <!-- the js can refer to this element by its id to get content for start -->
+  <label>Start:</label>
+  <input type="text" id="start"/>
   
+  <!-- a line break -->
   <br/>
-  <label for="name">End:</label>
-  <input type="text" id="name" name="name" required size="20" />
+
+  <!-- the js can refer to this element by its id to get content for end -->
+  <label>End:</label>
+  <input type="text" id="end"/>
+
+  <!-- a line break -->
+  <br/>
+  <button 
+    type="button" 
+    onclick="getPath();"
+  >Get path</button>
 
   <br/>
-  <button type="button" onclick="getPath();">Get path</button>
 
-  <br/>
+  <!-- a div allows the js to refer to this element by its id to set content -->
   <div id="path"></div>
 </body>
 </html>
