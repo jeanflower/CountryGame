@@ -8,7 +8,7 @@ This repo is about delivering a python-backed compute result through a javascrip
 
 This includes an HTML file for our game with input fields to fill in and a button to click.  
 
-The response as shown when the button is clicked is computed on the client; in the browser.
+When the button is clicked, a response is computed on the client; in the browser.
 
 The client is unable to get a response back from any server-side logic to compute a result; for security, browsers prohibit the calling of an unrelated API directly from client code.  They instead issue CORS errors.
 
