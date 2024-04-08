@@ -33,7 +33,6 @@ A nodejs app which connects to a specified mongodb to perform some CRUD (create 
 
 ## more steps
 
- - Deploy the nextjs app on GCP
  - Use typescript instead of javascript
  - Styling using bootstrap and CSS
 
