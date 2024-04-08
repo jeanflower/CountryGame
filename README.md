@@ -59,6 +59,8 @@ The app queries for start and end countries and prints a path
 
 A nodejs app which connects to a specified mongodb (mongo database) to perform some CRUD (create read update delete) operations.  The mongo database requires a database called crudExample. Create a .env.local file in the monfoapp folder (your env file will be gitignored) and follow the pattern of .env.sample, to point the code at your mongoDB location.
 
+<img src="https://github.com/jeanflower/CountryGame/blob/main/mongoappScreenshot.png" width=50% height=50%>
+
 # Full stack
 
 ## nextjsapp
