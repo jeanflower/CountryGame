@@ -20,11 +20,14 @@ The client is unable to get a response back from any server-side logic to comput
 
 A demo of various css styling controls.  Refer to https://www.w3schools.com/css/ for more.  To run, load index.html into a browser and explore making changes to mystyles.css.
 
+![stylingcssScreenshot](stylingcssScreenshot.png)
+
 ## reactapp
 
 [Link to folder](reactapp)
 
 React is a javascript front-end library created by Facebook.  React apps are built out of react components, and use JSX syntax, a kind of hybrid between HTML and js. They are designed to be .. reactive.  Have a look at ```npm test``` as well.
+![reactapp](reactappScreenshot.png)
 
 # Backend
 
