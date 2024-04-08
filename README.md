@@ -29,7 +29,7 @@ A demo of various css styling controls.  Refer to https://www.w3schools.com/css/
 
 React is a javascript front-end library created by Facebook.  React apps are built out of react components, and use JSX syntax, a kind of hybrid between HTML and js. They are designed to be .. reactive.  Have a look at ```npm test``` as well.
 
-<img src="https://github.com/jeanflower/CountryGame/blob/main/reactappScreenshot.png" width=50% height=50%>
+<img src="https://github.com/jeanflower/CountryGame/blob/main/reactappScreenshot.png" width=30% height=30%>
 
 # Backend
 
