@@ -35,4 +35,5 @@ A nodejs app which connects to a specified mongodb to perform some CRUD (create 
 
  - Use typescript instead of javascript
  - Styling using bootstrap and CSS
+ - nextjs routing, server-side work, middleware
 
