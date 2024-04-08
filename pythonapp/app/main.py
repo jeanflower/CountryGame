@@ -8,12 +8,23 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import HTMLResponse
 import shutil
 import cv2
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+# https://fastapi.tiangolo.com/tutorial/cors/
+from fastapi.middleware.cors import CORSMiddleware
 
 from .findPaths import getShortestPathUsingNames
 
 # print(cv2.__version__)
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins="*",
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/hello")
 def read_root():
