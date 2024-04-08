@@ -31,9 +31,13 @@ Use the nextjs framework to writes client-side HTML and server-side fetch calls 
 
 A nodejs app which connects to a specified mongodb to perform some CRUD (create read update delete) operations.  The mongo database requires a database called crudExample. Create a .env.local file in the monfoapp folder (your env file will be gitignored) and follow the pattern of .env.sample, to point the code at your mongoDB location.
 
+## stylingcssapp
+
+A demo of various css styling controls.  Refer to https://www.w3schools.com/css/ for more.  To run, load index.html into a browser and explore making changes to mystyles.css.
+
 ## more steps
 
  - Use typescript instead of javascript
- - Styling using bootstrap and CSS
+ - Styling using bootstrap
  - nextjs routing, server-side work, middleware
 

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Style explorations</title>
+  <link rel="stylesheet" href="./mystyle.css">
+</head>
+<body>
+  <div>
+    <h2>Global style</h2>
+    <p>
+      <label for="name">Start:</label>
+      <input type="text" id="start" name="start" required size="20" />
+      <br/>
+      <label for="name">End:</label>
+      <input type="text" id="name" name="name" required size="20" />
+    </p>
+    <p>
+      <button type="button" onclick="alert(`game doesn't function`)">Get path</button>
+    </p>
+    <div id="path">Some path info goes here</div>
+  </div>
+
+  <div class="style1">
+    <h2>Style1</h2>
+    <p>
+      <label for="name">Start:</label>
+      <input type="text" id="start" name="start" required size="20" />
+      <br/>
+      <label for="name">End:</label>
+      <input type="text" id="name" name="name" required size="20" />
+    </p>
+    <p>
+      <button type="button" onclick="alert(`game doesn't function`)">Get path</button>
+    </p>
+    <p id="path" class="cyanClass">
+      Some path info goes here
+    </p>
+</div>
+
+<div class="style2">
+  <h2 class="header">Style2</h2>
+  <div class="topnav">
+    <a href="#">Navbar link1</a>
+    <a href="#">Link2</a>
+    <a href="#">Link3</a>
+  </div>
+  <div class="row">
+    <p class="column wide">
+      <label for="name">Start:</label>
+      <input type="text" id="start" name="start" required size="20" />
+      <br/>
+      <label for="name">End:</label>
+      <input type="text" id="name" name="name" required size="20" />
+    </p>
+    <p class="column narrow">
+      <!-- look into css alerts here https://www.w3schools.com/howto/howto_js_alert.asp -->
+      <button type="button" onclick="alert(`game doesn't function`)">Get path</button>
+    </p>
+    <p id="path" class="column narrow">
+      Some path info goes here
+    </p>
+  </div>
+  <div class="footer">
+    <p>Footer</p>
+  </div>
+</div>
+</body>
+</html>
