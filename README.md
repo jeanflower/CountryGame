@@ -10,11 +10,11 @@ The running example is an app that gets specified start and end countries from a
 
 This includes an HTML file for our game with input fields to fill in and a button to click.  
 
-When the button is clicked, a response is computed on the client; in the browser.
+When the button is clicked, a response is computed by calling an API.
 
-The client is unable to get a response back from any server-side logic to compute a result; for security, browsers prohibit the calling of an unrelated API directly from client code.  They instead issue CORS errors.
+About CORS : The server in our example provides a response only because it has been configured to allow CORS (cross-origin requests).  For security, browsers check with an API whether a call is permitted before making an actual request.  Our API endpoint is allowing calls from any client (cross-origin).  More usually, an API doesn't allow cross-origin, so we'd need to offer up our HTML from an origin which also provides an API (same-origin).  In the back-end, a same-origin API can then make a further call to a different address for the ultimate data-providing API.
 
-<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/jswebScreenshot.png" width=50% height=50%>
+<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/jswebScreenshot.png" width=90% height=90%>
 
 ## stylingcssapp
 
