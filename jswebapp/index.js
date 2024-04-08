@@ -7,7 +7,7 @@ async function getPath() {
   const pathStart = startElement.value;
   const pathEnd = endElement.value;
 
-  const sendFakeData = true;
+  const sendFakeData = false;
 
   let pathResponseText = '';
 
