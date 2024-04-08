@@ -13,6 +13,10 @@ The website can only offer a fake response
 
 A demo of various css styling controls.  Refer to https://www.w3schools.com/css/ for more.  To run, load index.html into a browser and explore making changes to mystyles.css.
 
+## reactapp
+
+React is a javascript front-end library created by Facebook.  React apps are built out of react components, and use JSX syntax, a kind of hybrid between HTML and js. They are designed to be .. reactive.  Have a look at ```npm test``` as well.
+
 # Backend
 
 ## pythonapp
