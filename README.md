@@ -111,6 +111,10 @@ https://nextjs-auth-project-service-qzwnizxtoa-uc.a.run.app/
 
 A Typescript version of our javascript [nextauthapp](nextauthapp).  Adding type definitions adds to code quality.  Enforcing types revealed some bugs and weaknesses in the javascript implementation (passing a wrong argument to a function, assuming values are properly defined before using them without any guard to handle the undefined cases).
 
+This image shows a diff between the plain javascript version of the home page and a typescript version.
+
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/nextauthtsappScreenshot.png" width=90% height=90%>
+
 The customer-facing outcome of this app is the same as [nextauthapp](nextauthapp).
 
 # More steps
