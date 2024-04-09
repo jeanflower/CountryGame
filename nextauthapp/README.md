@@ -4,18 +4,18 @@ This nextjs app allows users of the site to register an email/password and get a
 
 Credentials management, email verification and a 'forgot password' workflow are provided by Google Firebase authentication.
 
-## To run the code locally
-Pre-requisites - nodejs, npm.
-
-Clone this repo and ```npm install```.
-
-Configure the site for redirect after customers verify their email. Add a (gitignored) .env file alongside the .env.sample file and add the URL where you're going to run the site, see .env.sample for an example.
+## Setup
 
 In https://console.firebase.google.com/, have a firebase Project. Enable Authentication for this app, of the Email/Password type. Go to Users and add a user (with a real, accessible email address).  
 
 Have a firebase App, of a Web App type. Get an apiKey and authDomain for our firebase app and set those values in firebaseConfig.js.  It's OK for these keys to be available in client code, see https://firebase.google.com/docs/projects/api-keys.
 
-### Local dev build
+## To run the code locally
+Pre-requisites - nodejs, npm.
+
+Configure the site for redirect after customers verify their email. Add a (gitignored) .env file alongside the .env.sample file and add the URL where you're going to run the site, see .env.sample for an example.
+
+Clone this repo and ```npm install```.
 
 To run the webserver, run (start1localServer.sh) or ```npm run dev```.
 
