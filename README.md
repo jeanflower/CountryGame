@@ -16,7 +16,7 @@ About CORS : The server in our example provides a response only because it has b
 
 You can run the page by loading the HTML file into a browser, or you can visit a statically-hosted version of the file [here](https://storage.googleapis.com/static-website-bucket2/jswebapp/index.html)
 
-<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/jswebScreenshot.png" width=90% height=90%>
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/jswebScreenshot.png" width=90% height=90%>
 
 ## stylingcssapp
 
@@ -24,7 +24,7 @@ You can run the page by loading the HTML file into a browser, or you can visit a
 
 A demo of various css styling controls.  Refer to https://www.w3schools.com/css/ for more.  To run, load index.html into a browser and explore making changes.
 
-<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/stylingcssScreenshot.png" width=90% height=90%>
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/stylingcssScreenshot.png" width=90% height=90%>
 
 You can run the page by loading the HTML file into a browser, or you can visit a statically-hosted version of the file [here](https://storage.googleapis.com/static-website-bucket2/stylingcssapp/index.html)
 
@@ -34,7 +34,7 @@ You can run the page by loading the HTML file into a browser, or you can visit a
 
 React is a javascript front-end library created by Facebook.  React apps are built out of react components, and use JSX syntax, a kind of hybrid between HTML and js. They are designed to be .. reactive.  Have a look at ```npm test``` as well.
 
-<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/reactappScreenshot.png" width=80% height=80%>
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/reactappScreenshot.png" width=80% height=80%>
 
 # Backend
 
@@ -46,7 +46,7 @@ The pythonapp folder includes an algorithm in app/main.py, served using uvicorn.
 
 A deployed version of the game can be found at https://python-project-service-2ldm6ft3ha-uc.a.run.app/game
 
-<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/pythonappScreenshot.png" width=90% height=90%>
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/pythonappScreenshot.png" width=90% height=90%>
 
 ## nodeapp
 
@@ -56,7 +56,7 @@ There is a node app which can be run directly, and uses fetch to call the python
 
 The app queries for start and end countries and prints a path
 
-<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/nodejsappScreenshot.png" width=50% height=50%>
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/nodejsappScreenshot.png" width=50% height=50%>
 
 ## mongoapp
 
@@ -64,7 +64,7 @@ The app queries for start and end countries and prints a path
 
 A nodejs app which connects to a specified mongodb (mongo database) to perform some CRUD (create read update delete) operations.  The mongo database requires a database called crudExample. Create a .env.local file in the monfoapp folder (your env file will be gitignored) and follow the pattern of .env.sample, to point the code at your mongoDB location.
 
-<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/mongoappScreenshot.png" width=50% height=50%>
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/mongoappScreenshot.png" width=50% height=50%>
 
 # Full stack
 
@@ -76,7 +76,7 @@ Use the nextjs framework to write client-side HTML and server-side fetch calls t
 
 A deployed version of the app can be found at https://nextjs-project-service-qzwnizxtoa-uc.a.run.app/
 
-<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/nextjsScreenshot.png" width=50% height=50%>
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/nextjsScreenshot.png" width=50% height=50%>
 
 ## nextauthapp
 
@@ -86,7 +86,7 @@ Use the nextjs framework with Google Firebase Authentication to write an app wit
 
 This app has a configuration setting which is used to tell Google Firebase a 'continuation URL'.  After someone has verified their email, this defines where the web page goes to to continue.  That is, where is the site hosted?  For local running, this is managed using a NEXT_PUBLIC_ environment variable set in .env. For docker (including Google Cloud Run), it's managed by setting an environment variable in the Dockerfile.  Note that this setting is not a secret and must be known to the client code.
 
-<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/nextauthappScreenshot.png" width=90% height=90%>
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/nextauthappScreenshot.png" width=90% height=90%>
 
 A deployed version of the app can be found at 
 https://nextjs-auth-project-service-qzwnizxtoa-uc.a.run.app/
