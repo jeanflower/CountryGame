@@ -114,4 +114,5 @@ https://nextjs-auth-project-service-qzwnizxtoa-uc.a.run.app/
  - Testing with jest and Cypress
  - Upload and download of text and binary files to cloud storage
  - Encryption of data
-
+ - Sending emails from code
+ - Cookie management
