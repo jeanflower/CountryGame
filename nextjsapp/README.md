@@ -17,4 +17,8 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## What it looks like
+
+This image shows the nextjs app delivering content to the browser.  In the Network panel we can see details about a call to the server side of the nextjs deployment. 
+
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/nextjsScreenshot.png" width=90% height=90%>

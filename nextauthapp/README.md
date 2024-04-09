@@ -59,3 +59,9 @@ https://firebase.google.com/support/guides/security-checklist#security_rules.
 Delete users as well as adding them.
 
 Ensure that the customer-facing verification emails and password reset emails look good.
+
+## What it looks like
+
+This image shows the login page, a page only accessible to authenticated users, and a view of the Firebase Console Users table.
+
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/nextauthappScreenshot.png" width=90% height=90%>
