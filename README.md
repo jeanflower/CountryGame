@@ -72,11 +72,22 @@ A nodejs app which connects to a specified mongodb (mongo database) to perform s
 
 [Link to folder](nextjsapp)
 
-Use the nextjs framework to writes client-side HTML and server-side fetch calls to build a working web app that uses the python API call on the back end.  The nextjs app will work with our python API endpoint even if the python API prohibits cross-origin requests, because the call to the python API is from our back-end server and not directly from the browser.
+Use the nextjs framework to write client-side HTML and server-side fetch calls to build a working web app that uses the python API call on the back end.  The nextjs app will work with our python API endpoint even if the python API prohibits cross-origin requests, because the call to the python API is from our back-end server and not directly from the browser.
 
 A deployed version of the app can be found at https://nextjs-project-service-qzwnizxtoa-uc.a.run.app/
 
 <img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/nextjsScreenshot.png" width=50% height=50%>
+
+## nextauthapp
+
+[Link to folder](nextauthapp)
+
+Use the nextjs framework with Google Firebase Authentication to write an app with customer login, logout and a page which can only be accessed by a customer who has logged in.
+
+<img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/nextauthappScreenshot.png" width=90% height=90%>
+
+A deployed version of the app can be found at 
+https://nextjs-auth-project-service-qzwnizxtoa-uc.a.run.app/
 
 # More steps
 
