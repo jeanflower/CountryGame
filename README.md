@@ -112,3 +112,6 @@ https://nextjs-auth-project-service-qzwnizxtoa-uc.a.run.app/
  - handling of secrets
  - nextjs routing, server-side work, middleware
  - Testing with jest and Cypress
+ - Upload and download of text and binary files to cloud storage
+ - Encryption of data
+
