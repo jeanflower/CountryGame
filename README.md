@@ -1,4 +1,4 @@
-This repo is about delivering a python-backed compute result through a javascript web app.  The solutions are intended to provide bite-sized steps along the way to a full-stack web app.
+This repo is made up of a set of small demo examples which focus on individual capabilities which might fit together to build a full-stack web app.  The complete app would be a python-backed compute result through a javascript web app with access control.  The part solutions are intended to provide bite-sized steps along the way to such a full-stack web app.
 
 The running example is an app that gets specified start and end countries from a user and reports back a shortest path passing through neighbouring countries.  The idea is that the logic for this path-finding is best set out in back-end server-side python code, perhaps using a database, while the best customer-facing front-end experience is presented using javascript frameworks.
 
