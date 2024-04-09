@@ -84,7 +84,7 @@ A deployed version of the app can be found at https://nextjs-project-service-qzw
 
 Use the nextjs framework with Google Firebase Authentication to write an app with customer login, logout and a page which can only be accessed by a customer who has logged in.
 
-This app has a configuration setting which is used to tell Google Firebase a 'continuation URL'.  After someone has verified their email, this value defined where the web page goes to to continue.  That is, where is the site hosted?  For local running, this is managed using a NEXT_PUBLIC_ environment variable set in .env. For docker (including Google Cloud Run), it's managed by setting an environment variable in the Dockerfile.  Note that this setting is not a secret and must be known to the client code.
+This app has a configuration setting which is used to tell Google Firebase a 'continuation URL'.  After someone has verified their email, this defines where the web page goes to to continue.  That is, where is the site hosted?  For local running, this is managed using a NEXT_PUBLIC_ environment variable set in .env. For docker (including Google Cloud Run), it's managed by setting an environment variable in the Dockerfile.  Note that this setting is not a secret and must be known to the client code.
 
 <img src="https://github.com/jeanflower/Full-stack-demos-country-game/blob/main/nextauthappScreenshot.png" width=90% height=90%>
 
