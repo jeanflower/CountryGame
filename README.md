@@ -97,6 +97,5 @@ https://nextjs-auth-project-service-qzwnizxtoa-uc.a.run.app/
  - Styling using bootstrap
  - handling of secrets
  - nextjs routing, server-side work, middleware
- - authentication using google, firebase
 
 
