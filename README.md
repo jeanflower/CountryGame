@@ -105,6 +105,14 @@ This image shows the login page, a page only accessible to authenticated users, 
 A deployed version of the app can be found at 
 https://nextjs-auth-project-service-qzwnizxtoa-uc.a.run.app/
 
+## nextauthtsapp
+
+[Link to folder](nextauthtsapp)
+
+A Typescript version of our javascript [nextauthapp](nextauthapp).  Adding type definitions adds to code quality.  Enforcing types revealed some bugs and weaknesses in the javascript implementation (passing a wrong argument to a function, assuming values are properly defined before using them without any guard to handle the undefined cases).
+
+The customer-facing outcome of this app is the same as [nextauthapp](nextauthapp).
+
 # More steps
 
  - Use typescript instead of javascript
