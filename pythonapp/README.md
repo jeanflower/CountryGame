@@ -42,13 +42,6 @@ To have docker available locally on the command line, install from [here](https:
 See the docker environment defined in the requirements.txt and the Dockerfile.
 
 The (./buildAndRunDockerContainer.sh) script includes commands to build the docker image and deploy a docker container.  
-~~~~
-docker build -t myimage .
-docker stop mycontainer
-docker rm mycontainer
-docker run -d --name mycontainer -p 8000:80 myimage
-~~~~
-    open "http://localhost:8000/hello"
 
 Visiting http://localhost:8000/hello validates that we're seeing the reponse from the python script.
 
