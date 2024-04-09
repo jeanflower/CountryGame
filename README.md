@@ -14,6 +14,8 @@ When the button is clicked, a response is computed by calling an API.
 
 You can run the page by loading the HTML file into a browser, or you can visit a statically-hosted version of the file [here](https://storage.googleapis.com/static-website-bucket2/jswebapp/index.html)
 
+Learn more HTML from the MDN docs [here](https://developer.mozilla.org/en-US/docs/Web/HTML).
+
 This image shows the page in a browser. The browser's Network panel shows some details about the call to the API when the Get Path button is clicked.
 
 <img src="https://github.com/jeanflower/full-stack-demos/blob/main/jswebScreenshot.png" width=90% height=90%>
@@ -26,7 +28,7 @@ A demo of various css styling controls.  Refer to https://www.w3schools.com/css/
 
 You can run the page by loading the HTML file into a browser, or you can visit a statically-hosted version of the file [here](https://storage.googleapis.com/static-website-bucket2/stylingcssapp/index.html)
 
-Learn more by following the tutorial [here](https://www.w3schools.com/css/).
+Learn more CSS by following the w3schools tutorial [here](https://www.w3schools.com/css/).
 
 This image shows some of the rendered HTML. The HTML for the two sections is the same but different CSS styling has been applied for color, border, background and layout.  The browser Elements tab shows details of the styling for selected page elements.
 
@@ -38,7 +40,7 @@ This image shows some of the rendered HTML. The HTML for the two sections is the
 
 React is a javascript front-end library created by Facebook.  React apps are built out of react components, and use JSX syntax, a kind of hybrid between HTML and js. They are designed to be .. reactive.  
 
-Learn more by following the react tutorial [here](https://react.dev/learn).
+Learn more React by following the react tutorial and docs [here](https://react.dev/learn/tutorial-tic-tac-toe).
 
 This image shows the react app in action.  A React development browser add-in showing details about components and props.
 
@@ -68,6 +70,8 @@ There is a node app which can be run directly, and uses fetch to call the python
 
 The app queries for start and end countries and prints a path
 
+Learn more about nodejs development in VSCode [here](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial).
+
 This image shows the node app running in a local terminal.
 
 <img src="https://github.com/jeanflower/full-stack-demos/blob/main/nodejsappScreenshot.png" width=50% height=50%>
@@ -78,7 +82,7 @@ This image shows the node app running in a local terminal.
 
 A nodejs app which connects to a specified mongodb (mongo database) to perform some CRUD (create read update delete) operations.  The mongo database requires a database called crudExample. Create a .env.local file in the monfoapp folder (your env file will be gitignored) and follow the pattern of .env.sample, to point the code at your mongoDB location.
 
-Learn more from the docs [here](https://www.mongodb.com/docs/drivers/node/current/).
+Learn more from the mongodb node docs [here](https://www.mongodb.com/docs/drivers/node/current/).
 
 This image shows the mongo app running in a local terminal and a web view of the mongo content.
 
@@ -108,7 +112,7 @@ Use the nextjs framework with Google Firebase Authentication to write an app wit
 
 This app has a configuration setting which is used to tell Google Firebase a 'continuation URL'.  After someone has verified their email, this defines where the web page goes to to continue.  That is, where is the site hosted?  For local running, this is managed using a NEXT_PUBLIC_ environment variable set in .env. For docker (including Google Cloud Run), it's managed by setting an environment variable in the Dockerfile.  Note that this setting is not a secret and must be known to the client code.
 
-There are a huge number of tutorials and blog pages about firebase and authentication.  We want to avoid using firebase hosting (so we can be free to host however we want) and we don't want to restrict users to log in with Google accounts (many tutorials have an outcome where anyone with a google account can log in).  So tread carefully when seeking more information.  This post looks quite good [here](https://www.stoman.me/articles/nextjs-firebase-auth).
+There are a huge number of tutorials and blog pages about firebase and authentication.  We want to avoid using firebase hosting (so we can be free to host however we want) and we don't want to restrict users to log in with Google accounts (many tutorials have an outcome where anyone with a google account can log in).  So tread carefully when seeking more information.  This post is quite good [here](https://www.stoman.me/articles/nextjs-firebase-auth).
 
 This image shows the login page, a page only accessible to authenticated users, and a view of the Firebase Console Users table.
 
