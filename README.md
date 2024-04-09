@@ -119,7 +119,6 @@ The customer-facing outcome of this app is the same as [nextauthapp](nextauthapp
 
 # More steps
 
- - Use typescript instead of javascript
  - Styling using bootstrap
  - handling of secrets
  - nextjs routing, server-side work, middleware
