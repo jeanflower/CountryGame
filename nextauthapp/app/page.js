@@ -191,7 +191,7 @@ export default function Home() {
         
         <>
         <h1>Hello {loggedInEmail}</h1>        
-        <button onClick={() => signOutAnyone(signInEmail)}>
+        <button onClick={() => signOutAnyone()}>
         Sign out
         </button>
         </>
