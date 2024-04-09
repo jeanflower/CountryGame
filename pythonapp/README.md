@@ -2,7 +2,7 @@ Examples of python-backed APIs, implemented with fastAPI and deployed on Google 
 
 ## Python server
 
-Uses [uvicorn](https://www.uvicorn.org/) and [fastAPI](https://fastapi.tiangolo.com/) to offer a simple hello-world API backed by python code.
+Uses [uvicorn](https://www.uvicorn.org/) and [fastAPI](https://fastapi.tiangolo.com/) to offer a simple hello-world API backed by python code. 
 
 ---
 
