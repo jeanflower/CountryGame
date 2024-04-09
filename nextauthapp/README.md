@@ -1,8 +1,10 @@
 ## Summary
 
-This nextjs app allows users of the site to register an email/password and get an account. After verifying their email address, they can use their email/password combination to log in and access a 'doUsefulThings' page.  Only logged in people can access this page.
+This nextjs app allows users of the site to register an email/password and get an account. After verifying their email address, they can use their email/password combination to log in and access a game-play page.  Only logged in people can access this page.
 
 Credentials management, email verification and a 'forgot password' workflow are provided by Google Firebase authentication.   We can see in [package.json](package.json) that we have included a dependency on the [firebase](https://www.npmjs.com/package/firebase) library. 
+
+There's a tiny bit of CSS which is used to style the game panel with a border and margins.
 
 ## Setup
 

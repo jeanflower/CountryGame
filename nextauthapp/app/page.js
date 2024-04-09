@@ -75,7 +75,7 @@ export default function Home() {
           return;
         }
       }
-      router.push('/doUsefulThings');
+      router.push('/playGame');
 
     } catch (err) {
       if(err.code === 'auth/invalid-email') {

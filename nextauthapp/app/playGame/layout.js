@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Useful page',
+  title: 'Countries game',
   description: 'For authenticated users',
 }
  
