@@ -4,8 +4,9 @@ import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { inspect } from 'util';
 
-import { signOut } from 'firebase/auth';
+import { User, signOut } from 'firebase/auth';
 import styles from '../../styles/playGameStyle.module.css';
+import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';
 
 inspect;
 
@@ -13,16 +14,16 @@ inspect;
 async function getPath() {
   console.log('in getPath');
 
-  const startElement = document.getElementById('start');
-  const endElement = document.getElementById('end');
+  const startElement: HTMLElement | null = document.getElementById('start');
+  const endElement: HTMLElement | null = document.getElementById('end');
 
-  let pathStart = '';
+  let pathStart: string = '';
   if(startElement && startElement instanceof HTMLInputElement) {
     pathStart = startElement.value;
   } else {
     console.log(`Error : startElement not found or unexpected type`);
   }
-  let pathEnd = '';
+  let pathEnd: string = '';
   if(endElement && endElement instanceof HTMLInputElement) {
     pathEnd = endElement.value;
   } else {
@@ -35,7 +36,7 @@ async function getPath() {
 
   if (sendFakeData) {
     pathResponseText = `Some fake path from ${pathStart} to ${pathEnd}`;
-    const pathElement = document.getElementById('path');
+    const pathElement: HTMLElement | null = document.getElementById('path');
     if (pathElement) {
       pathElement.textContent = pathResponseText;
     } else {
@@ -50,12 +51,12 @@ async function getPath() {
     const pathUrl = `${apiServerRoot}/pathRaw?start=${pathStart}&end=${pathEnd}`
     console.log('url is ', pathUrl);
 
-    const pathResponse = await fetch(pathUrl);
+    const pathResponse: Response = await fetch(pathUrl);
     pathResponseText = await pathResponse.text();
     console.log(pathResponseText);
   }
 
-  const pathElement = document.getElementById('path');
+  const pathElement: HTMLElement | null = document.getElementById('path');
   if (pathElement) {
     pathElement.textContent = pathResponseText;
   } else {
@@ -65,12 +66,12 @@ async function getPath() {
 // End of javascript code
 
 export default function PlayGame() {
-  const router = useRouter();
+  const router: AppRouterInstance = useRouter();
 
-  const [loggedInEmail, setLoggedInEmail] = useState('');
+  const [loggedInEmail, setLoggedInEmail] = useState<string>('');
 
   useEffect(() => {
-    auth.onAuthStateChanged(async (user) => {
+    auth.onAuthStateChanged(async (user: User | null) => {
       if (!user) {
         // if you're not logged in, go to home page
         console.log('no user logged in');

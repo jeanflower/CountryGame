@@ -8,34 +8,37 @@ import {
   sendEmailVerification,
   sendPasswordResetEmail,
   signOut,
+  UserCredential,
 } from 'firebase/auth';
 import { inspect } from 'util';
+import { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';
 
 export default function Home() {
-  const router = useRouter();
+  const router: AppRouterInstance = useRouter();
 
-  const signinUrl = process.env.NEXT_PUBLIC_SIGNIN_URL;
+  const signinUrl: string | undefined = process.env.NEXT_PUBLIC_SIGNIN_URL;
   if (!signinUrl) {
     console.log(`Error, undefined NEXT_PUBLIC_SIGNIN_URL`);
     return <>Error, undefined NEXT_PUBLIC_SIGNIN_URL</>;
   }
 
   // input fields
-  const [signInEmail, setSignInEmail] = useState('');
-  const [signInPassword, setSignInPassword] = useState('');
+  const [signInEmail, setSignInEmail] = useState<string>('');
+  const [signInPassword, setSignInPassword] = useState<string>('');
 
-  const [newUserEmail, setNewUserEmail] = useState('');
-  const [newUserPassword, setNewUserPassword] = useState('');
+  const [newUserEmail, setNewUserEmail] = useState<string>('');
+  const [newUserPassword, setNewUserPassword] = useState<string>('');
 
   // feedback on screen
-  const [addUserMsg, setAddUserMsg] = useState('');
-  const [signInMsg, setSignInMsg] = useState('');
+  const [addUserMsg, setAddUserMsg] = useState<string>('');
+  const [signInMsg, setSignInMsg] = useState<string>('');
 
-  const [loggedInEmail, setLoggedInEmail] = useState('');
+  const [loggedInEmail, setLoggedInEmail] = useState<string>('');
 
-  const addUser = async (email: string, password: string) => {
+  const addUser: (email: string, password: string) => void = 
+    async (email: string, password: string) => {
     try {
-      const cred = await createUserWithEmailAndPassword(auth, email, password);
+      const cred: UserCredential = await createUserWithEmailAndPassword(auth, email, password);
       await signOut(auth);
       setLoggedInEmail('');
 
