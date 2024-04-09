@@ -16,7 +16,7 @@ About CORS : The server in our example provides a response only because it has b
 
 You can run the page by loading the HTML file into a browser, or you can visit a statically-hosted version of the file [here](https://storage.googleapis.com/static-website-bucket2/jswebapp/index.html)
 
-This image show the opage in a browser, with the browser Network panel showing some details about the call to the API when the Get Path button is clicked.
+This image show the page in a browser. The browser's Network panel shows some details about the call to the API when the Get Path button is clicked.
 
 <img src="https://github.com/jeanflower/full-stack-demos/blob/main/jswebScreenshot.png" width=90% height=90%>
 
@@ -28,7 +28,7 @@ A demo of various css styling controls.  Refer to https://www.w3schools.com/css/
 
 You can run the page by loading the HTML file into a browser, or you can visit a statically-hosted version of the file [here](https://storage.googleapis.com/static-website-bucket2/stylingcssapp/index.html)
 
-This image shows some of the rendered HTML, where the HTML for the two sections is the same but different CSS styling has been applied for color, border, background and layout.  The browser Elements tab shows details of the styling for selected page elements.
+This image shows some of the rendered HTML. The HTML for the two sections is the same but different CSS styling has been applied for color, border, background and layout.  The browser Elements tab shows details of the styling for selected page elements.
 
 <img src="https://github.com/jeanflower/full-stack-demos/blob/main/stylingcssScreenshot.png" width=90% height=90%>
 
@@ -38,7 +38,7 @@ This image shows some of the rendered HTML, where the HTML for the two sections 
 
 React is a javascript front-end library created by Facebook.  React apps are built out of react components, and use JSX syntax, a kind of hybrid between HTML and js. They are designed to be .. reactive.  Have a look at ```npm test``` as well.
 
-This image shows the react app in action, with a React development browser add-in showing details about components and props.
+This image shows the react app in action.  A React development browser add-in showing details about components and props.
 
 <img src="https://github.com/jeanflower/full-stack-demos/blob/main/reactappScreenshot.png" width=80% height=80%>
 
@@ -88,7 +88,7 @@ Use the nextjs framework to write client-side HTML and server-side fetch calls t
 
 A deployed version of the app can be found at https://nextjs-project-service-qzwnizxtoa-uc.a.run.app/
 
-This image shows the nextjs app delivering content to the browser and, in the Network panel, details about a call to the server side of the nextjs deployment. 
+This image shows the nextjs app delivering content to the browser.  In the Network panel we can see details about a call to the server side of the nextjs deployment. 
 
 <img src="https://github.com/jeanflower/full-stack-demos/blob/main/nextjsScreenshot.png" width=90% height=90%>
 
