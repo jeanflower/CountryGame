@@ -1,0 +1,25 @@
+.nav_highlighted_link {
+  color: white;
+}
+.nav_highlighted_link:hover {
+  color: grey;
+}
+
+
+.flexsection {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.flexdiv {
+  flex-grow: 1;
+  /* 1 and it will fill whole space left if no flex value are set to other children*/
+  /* background: gold; */
+  overflow: auto;
+}
+
+.flexfooter {
+  min-height: 60px;
+  /* min-height has its purpose :) , unless you meant height*/
+}
