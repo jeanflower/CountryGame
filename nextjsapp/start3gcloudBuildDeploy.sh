@@ -6,9 +6,6 @@ export REGION="us-central1"
 export IMAGE="nextjs-project-image"
 export SERVICE="nextjs-project-service"
 
-# use the region you chose above here in the URL:
-export IMAGE_TAG=${REGION}-docker.pkg.dev/$GCLOUD_PROJECT/$REPO/$IMAGE
-
 ####  GCP credentials for command line work
 # revoke if you may have used the CLI for a different account
 gcloud auth revoke
