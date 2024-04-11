@@ -51,7 +51,7 @@ Opening the docker desktop application shows a container called mycontainer and 
 
 1. Enable the gcloud command line interface (CLI) with a guide [here](https://cloud.google.com/sdk/docs/install).
 
-2. Create or choose a project on Google Cloud Platform, say python-project
+2. Create or choose a project on Google Cloud Platform and give it a name, for eaxmple, python-project
 
 3. Enable the Artifact Registry API (e.g. from Dashboard, go to Artifact Registry)
 
