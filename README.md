@@ -54,7 +54,7 @@ This image shows the react app in action.  A React development browser add-in sh
 
 The pythonapp folder includes an algorithm in app/main.py, served using uvicorn. There are three scripts for running the python; one running directly, the second building a docker container, and the third builds and deploys a docker container in Google Cloud Platform (using Cloud Build and Cloud Run).
 
-A deployed version of the game can be found at https://python-project-service-2ldm6ft3ha-uc.a.run.app/game
+A deployed version of the game can be found [here](https://python-project-service-2ldm6ft3ha-uc.a.run.app/game).
 
 Learn more about Dockerizing python [here](https://fastapi.tiangolo.com/deployment/docker/#build-a-docker-image-for-fastapi) and deploying on GCP [here](https://medium.com/@taylorhughes/how-to-deploy-an-existing-docker-container-project-to-google-cloud-run-with-the-minimum-amount-of-daca0b5978d8).
 
@@ -96,7 +96,7 @@ This image shows the mongo app running in a local terminal and a web view of the
 
 Use the nextjs framework to write client-side HTML and server-side fetch calls to build a working web app that uses the python API call on the back end.  The nextjs app will work with our python API endpoint even if the python API prohibits cross-origin requests, because the call to the python API is from our back-end server and not directly from the browser.
 
-A deployed version of the app can be found at https://nextjs-project-service-qzwnizxtoa-uc.a.run.app/
+A deployed version of the app can be found [here](https://nextjs-project-service-qzwnizxtoa-uc.a.run.app/).
 
 Learn more by following the nextjs tutorial [here](https://nextjs.org/learn).
 
@@ -118,8 +118,7 @@ This image shows the login page, a page only accessible to authenticated users, 
 
 <img src="https://github.com/jeanflower/full-stack-demos/blob/main/nextauthappScreenshot.png" width=90% height=90%>
 
-A deployed version of the app can be found at 
-https://nextjs-auth-project-service-qzwnizxtoa-uc.a.run.app/
+A deployed version of the app can be found [here](https://nextjs-auth-project-service-qzwnizxtoa-uc.a.run.app/).
 
 ## nextauthtsapp
 
@@ -135,9 +134,20 @@ This image shows a diff between the plain javascript version of the home page an
 
 The customer-facing outcome of this app is the same as [nextauthapp](nextauthapp).
 
+## uploaddownloadapp
+
+[Link to folder](uploaddownloadapp)
+
+A Nextjs app working with files in a Google Storage bucket. Demonstrates upload and download of image files.
+
+This image shows the web app and a browser view of the bucket contents.
+
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/uploaddownloadappScreenshot.png" width=90% height=90%>
+
+A deployed version of the app can be found [here](https://nextjs-uploaddownload-service-qzwnizxtoa-uc.a.run.app/).
+
 # More steps
 
- - Styling using bootstrap
  - handling of secrets
  - nextjs routing, server-side work, middleware
  - Testing with jest and Cypress
