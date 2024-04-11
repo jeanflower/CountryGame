@@ -26,3 +26,9 @@ There are scripts to deploy [start1, locally](start1localServer.sh) and on [star
 When running locally, as long as we are logged in to the Google CLI, the site can access the cloud storage.
 
 When running on Google Cloud, the default service agent for run already has access to storage. Default permissions are listed [here](https://cloud.google.com/iam/docs/understanding-roles#run.serviceAgent).
+
+This image shows the web app and a browser view of the bucket contents.
+
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/uploaddownloadappScreenshot.png" width=90% height=90%>
+
+A deployed version of the app can be found [here](https://nextjs-uploaddownload-service-qzwnizxtoa-uc.a.run.app/).
