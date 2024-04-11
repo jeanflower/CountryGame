@@ -18,6 +18,8 @@ logged errors
 ```p [Error]: Expected signal to be an instanceof AbortSignal```
 Fixed with a nextjs config change to disable serverMinification as described [here](https://github.com/node-fetch/node-fetch/issues/784).  Perhaps in future nextjs versions this will be fixed.
 
+Local image files can be selected and uploaded.  A name is provided for the name of the file on GCP. Duplicate names are noticed and trigger a failure message. The bucket is limited to three files.  When it becomes full, a failure message is displayed.
+
 The site is hosted at
 https://nextjs-uploaddownload-service-qzwnizxtoa-uc.a.run.app/
 
