@@ -1,8 +1,5 @@
 This app is connected with a bucket on Google Cloud Storage.  It allows the client to upload a file and download an image file. 
 
-TODO document carefully how we ensured the back-end service has
-privileges to read/write to the bucket.
-
 The app shows names of files in the bucket.  We can upload a file from
 our local filesystem and give it a name for the upload.
 
@@ -25,3 +22,7 @@ The site is hosted at
 https://nextjs-uploaddownload-service-qzwnizxtoa-uc.a.run.app/
 
 There are scripts to deploy [start1, locally](start1localServer.sh) and on [start3, GCP](/Users/jeanflower/outsideICloud/git/full-stack-demos/uploaddownloadapp/start3gcloudBuildDeploy.sh).  The script to run on [start2, Docker desktop](start2dockerRunAndBuild.sh) will run but doesn't have privileges to interact with the cloud Storage.  If we want to have the app to work in Docker Desktop we need to do something like [this](https://stackoverflow.com/questions/57137863/set-google-application-credentials-in-docker).
+
+When running locally, as long as we are logged in to the Google CLI, the site can access the cloud storage.
+
+When running on Google Cloud, the default service agent for run already has access to storage. Default permissions are listed [here](https://cloud.google.com/iam/docs/understanding-roles#run.serviceAgent).
