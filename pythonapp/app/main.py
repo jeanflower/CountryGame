@@ -33,7 +33,7 @@ def read_root():
     return {"Hello": "World"}
 
 
-@app.post("/upload/")
+@app.post("/uploadFile/")
 async def create_upload_file(file: UploadFile = File(...)):
     file_location = f"/tmp/{file.filename}"
     with open(file_location, "wb+") as file_object:
@@ -73,7 +73,7 @@ async def main():
     <title>Upload</title>
 </head>
 <body>
-    <form action="/upload" method="post" enctype="multipart/form-data">
+    <form action="/uploadFile" method="post" enctype="multipart/form-data">
         <!-- File input field -->
         <label for="file">Choosen file will be saved on server :</label>
         <input type="file" id="file" name="file" accept=".txt, .pdf, .jpg, .png">
