@@ -1,21 +1,21 @@
 nbrs = {
   "AD": {
     "id": 3041565,
-    "neighbours": [
+    "neighbors": [
       "FR",
       "ES"
     ]
   },
   "AE": {
     "id": 290557,
-    "neighbours": [
+    "neighbors": [
       "OM",
       "SA"
     ]
   },
   "AF": {
     "id": 1149361,
-    "neighbours": [
+    "neighbors": [
       "CN",
       "IR",
       "PK",
@@ -26,15 +26,15 @@ nbrs = {
   },
   "AG": {
     "id": 3576396,
-    "neighbours": []
+    "neighbors": []
   },
   "AI": {
     "id": 3573511,
-    "neighbours": []
+    "neighbors": []
   },
   "AL": {
     "id": 783754,
-    "neighbours": [
+    "neighbors": [
       "GR",
       "XK",
       "MK",
@@ -44,7 +44,7 @@ nbrs = {
   },
   "AM": {
     "id": 174982,
-    "neighbours": [
+    "neighbors": [
       "AZ",
       "GE",
       "IR",
@@ -53,7 +53,7 @@ nbrs = {
   },
   "AO": {
     "id": 3351879,
-    "neighbours": [
+    "neighbors": [
       "CD",
       "NA",
       "CG",
@@ -62,11 +62,11 @@ nbrs = {
   },
   "AQ": {
     "id": 6697173,
-    "neighbours": []
+    "neighbors": []
   },
   "AR": {
     "id": 3865483,
-    "neighbours": [
+    "neighbors": [
       "BO",
       "BR",
       "CL",
@@ -76,11 +76,11 @@ nbrs = {
   },
   "AS": {
     "id": 5880801,
-    "neighbours": []
+    "neighbors": []
   },
   "AT": {
     "id": 2782113,
-    "neighbours": [
+    "neighbors": [
       "CZ",
       "DE",
       "HU",
@@ -93,19 +93,19 @@ nbrs = {
   },
   "AU": {
     "id": 2077456,
-    "neighbours": []
+    "neighbors": []
   },
   "AW": {
     "id": 3577279,
-    "neighbours": []
+    "neighbors": []
   },
   "AX": {
     "id": 661882,
-    "neighbours": []
+    "neighbors": []
   },
   "AZ": {
     "id": 587116,
-    "neighbours": [
+    "neighbors": [
       "AM",
       "GE",
       "IR",
@@ -115,7 +115,7 @@ nbrs = {
   },
   "BA": {
     "id": 3277605,
-    "neighbours": [
+    "neighbors": [
       "HR",
       "ME",
       "RS"
@@ -123,18 +123,18 @@ nbrs = {
   },
   "BB": {
     "id": 3374084,
-    "neighbours": []
+    "neighbors": []
   },
   "BD": {
     "id": 1210997,
-    "neighbours": [
+    "neighbors": [
       "IN",
       "MM"
     ]
   },
   "BE": {
     "id": 2802361,
-    "neighbours": [
+    "neighbors": [
       "FR",
       "DE",
       "LU",
@@ -143,7 +143,7 @@ nbrs = {
   },
   "BF": {
     "id": 2361809,
-    "neighbours": [
+    "neighbors": [
       "BJ",
       "GH",
       "CI",
@@ -154,7 +154,7 @@ nbrs = {
   },
   "BG": {
     "id": 732800,
-    "neighbours": [
+    "neighbors": [
       "GR",
       "MK",
       "RO",
@@ -164,11 +164,11 @@ nbrs = {
   },
   "BH": {
     "id": 290291,
-    "neighbours": []
+    "neighbors": []
   },
   "BI": {
     "id": 433561,
-    "neighbours": [
+    "neighbors": [
       "CD",
       "RW",
       "TZ"
@@ -176,7 +176,7 @@ nbrs = {
   },
   "BJ": {
     "id": 2395170,
-    "neighbours": [
+    "neighbors": [
       "BF",
       "NE",
       "NG",
@@ -185,21 +185,21 @@ nbrs = {
   },
   "BL": {
     "id": 3578476,
-    "neighbours": []
+    "neighbors": []
   },
   "BM": {
     "id": 3573345,
-    "neighbours": []
+    "neighbors": []
   },
   "BN": {
     "id": 1820814,
-    "neighbours": [
+    "neighbors": [
       "MY"
     ]
   },
   "BO": {
     "id": 3923057,
-    "neighbours": [
+    "neighbors": [
       "AR",
       "BR",
       "CL",
@@ -209,11 +209,11 @@ nbrs = {
   },
   "BQ": {
     "id": 7626844,
-    "neighbours": []
+    "neighbors": []
   },
   "BR": {
     "id": 3469034,
-    "neighbours": [
+    "neighbors": [
       "AR",
       "BO",
       "CO",
@@ -228,22 +228,22 @@ nbrs = {
   },
   "BS": {
     "id": 3572887,
-    "neighbours": []
+    "neighbors": []
   },
   "BT": {
     "id": 1252634,
-    "neighbours": [
+    "neighbors": [
       "CN",
       "IN"
     ]
   },
   "BV": {
     "id": 3371123,
-    "neighbours": []
+    "neighbors": []
   },
   "BW": {
     "id": 933860,
-    "neighbours": [
+    "neighbors": [
       "NA",
       "ZA",
       "ZW"
@@ -251,7 +251,7 @@ nbrs = {
   },
   "BY": {
     "id": 630336,
-    "neighbours": [
+    "neighbors": [
       "LV",
       "LT",
       "PL",
@@ -261,24 +261,24 @@ nbrs = {
   },
   "BZ": {
     "id": 3582678,
-    "neighbours": [
+    "neighbors": [
       "GT",
       "MX"
     ]
   },
   "CA": {
     "id": 6251999,
-    "neighbours": [
+    "neighbors": [
       "US"
     ]
   },
   "CC": {
     "id": 1547376,
-    "neighbours": []
+    "neighbors": []
   },
   "CD": {
     "id": 203312,
-    "neighbours": [
+    "neighbors": [
       "AO",
       "BI",
       "CF",
@@ -292,7 +292,7 @@ nbrs = {
   },
   "CF": {
     "id": 239880,
-    "neighbours": [
+    "neighbors": [
       "CM",
       "TD",
       "CD",
@@ -303,7 +303,7 @@ nbrs = {
   },
   "CG": {
     "id": 2260494,
-    "neighbours": [
+    "neighbors": [
       "AO",
       "CM",
       "CF",
@@ -313,7 +313,7 @@ nbrs = {
   },
   "CH": {
     "id": 2658434,
-    "neighbours": [
+    "neighbors": [
       "AT",
       "FR",
       "DE",
@@ -323,7 +323,7 @@ nbrs = {
   },
   "CI": {
     "id": 2287781,
-    "neighbours": [
+    "neighbors": [
       "BF",
       "GH",
       "GN",
@@ -333,11 +333,11 @@ nbrs = {
   },
   "CK": {
     "id": 1899402,
-    "neighbours": []
+    "neighbors": []
   },
   "CL": {
     "id": 3895114,
-    "neighbours": [
+    "neighbors": [
       "AR",
       "BO",
       "PE"
@@ -345,7 +345,7 @@ nbrs = {
   },
   "CM": {
     "id": 2233387,
-    "neighbours": [
+    "neighbors": [
       "CF",
       "TD",
       "GQ",
@@ -356,7 +356,7 @@ nbrs = {
   },
   "CN": {
     "id": 1814991,
-    "neighbours": [
+    "neighbors": [
       "AF",
       "BT",
       "IN",
@@ -375,7 +375,7 @@ nbrs = {
   },
   "CO": {
     "id": 3686110,
-    "neighbours": [
+    "neighbors": [
       "BR",
       "EC",
       "PA",
@@ -385,36 +385,36 @@ nbrs = {
   },
   "CR": {
     "id": 3624060,
-    "neighbours": [
+    "neighbors": [
       "NI",
       "PA"
     ]
   },
   "CU": {
     "id": 3562981,
-    "neighbours": [
+    "neighbors": [
       "US"
     ]
   },
   "CV": {
     "id": 3374766,
-    "neighbours": []
+    "neighbors": []
   },
   "CW": {
     "id": 7626836,
-    "neighbours": []
+    "neighbors": []
   },
   "CX": {
     "id": 2078138,
-    "neighbours": []
+    "neighbors": []
   },
   "CY": {
     "id": 146669,
-    "neighbours": []
+    "neighbors": []
   },
   "CZ": {
     "id": 3077311,
-    "neighbours": [
+    "neighbors": [
       "AT",
       "DE",
       "PL",
@@ -423,7 +423,7 @@ nbrs = {
   },
   "DE": {
     "id": 2921044,
-    "neighbours": [
+    "neighbors": [
       "AT",
       "BE",
       "CZ",
@@ -437,7 +437,7 @@ nbrs = {
   },
   "DJ": {
     "id": 223816,
-    "neighbours": [
+    "neighbors": [
       "ER",
       "ET",
       "SO"
@@ -445,23 +445,23 @@ nbrs = {
   },
   "DK": {
     "id": 2623032,
-    "neighbours": [
+    "neighbors": [
       "DE"
     ]
   },
   "DM": {
     "id": 3575830,
-    "neighbours": []
+    "neighbors": []
   },
   "DO": {
     "id": 3508796,
-    "neighbours": [
+    "neighbors": [
       "HT"
     ]
   },
   "DZ": {
     "id": 2589581,
-    "neighbours": [
+    "neighbors": [
       "LY",
       "ML",
       "MR",
@@ -473,21 +473,21 @@ nbrs = {
   },
   "EC": {
     "id": 3658394,
-    "neighbours": [
+    "neighbors": [
       "CO",
       "PE"
     ]
   },
   "EE": {
     "id": 453733,
-    "neighbours": [
+    "neighbors": [
       "LV",
       "RU"
     ]
   },
   "EG": {
     "id": 357994,
-    "neighbours": [
+    "neighbors": [
       "IL",
       "LY",
       "SD"
@@ -495,11 +495,11 @@ nbrs = {
   },
   "EH": {
     "id": 2461445,
-    "neighbours": []
+    "neighbors": []
   },
   "ER": {
     "id": 338010,
-    "neighbours": [
+    "neighbors": [
       "DJ",
       "ET",
       "SD"
@@ -507,7 +507,7 @@ nbrs = {
   },
   "ES": {
     "id": 2510769,
-    "neighbours": [
+    "neighbors": [
       "AD",
       "FR",
       "GI",
@@ -517,7 +517,7 @@ nbrs = {
   },
   "ET": {
     "id": 337996,
-    "neighbours": [
+    "neighbors": [
       "DJ",
       "ER",
       "KE",
@@ -528,7 +528,7 @@ nbrs = {
   },
   "FI": {
     "id": 660013,
-    "neighbours": [
+    "neighbors": [
       "NO",
       "RU",
       "SE"
@@ -536,23 +536,23 @@ nbrs = {
   },
   "FJ": {
     "id": 2205218,
-    "neighbours": []
+    "neighbors": []
   },
   "FK": {
     "id": 3474414,
-    "neighbours": []
+    "neighbors": []
   },
   "FM": {
     "id": 2081918,
-    "neighbours": []
+    "neighbors": []
   },
   "FO": {
     "id": 2622320,
-    "neighbours": []
+    "neighbors": []
   },
   "FR": {
     "id": 3017382,
-    "neighbours": [
+    "neighbors": [
       "AD",
       "BE",
       "DE",
@@ -565,7 +565,7 @@ nbrs = {
   },
   "GA": {
     "id": 2400553,
-    "neighbours": [
+    "neighbors": [
       "CM",
       "GQ",
       "CG"
@@ -573,17 +573,17 @@ nbrs = {
   },
   "GB": {
     "id": 2635167,
-    "neighbours": [
+    "neighbors": [
       "IE"
     ]
   },
   "GD": {
     "id": 3580239,
-    "neighbours": []
+    "neighbors": []
   },
   "GE": {
     "id": 614540,
-    "neighbours": [
+    "neighbors": [
       "AM",
       "AZ",
       "RU",
@@ -592,18 +592,18 @@ nbrs = {
   },
   "GF": {
     "id": 3381670,
-    "neighbours": [
+    "neighbors": [
       "BR",
       "SR"
     ]
   },
   "GG": {
     "id": 3042362,
-    "neighbours": []
+    "neighbors": []
   },
   "GH": {
     "id": 2300660,
-    "neighbours": [
+    "neighbors": [
       "BF",
       "CI",
       "TG"
@@ -611,23 +611,23 @@ nbrs = {
   },
   "GI": {
     "id": 2411586,
-    "neighbours": [
+    "neighbors": [
       "ES"
     ]
   },
   "GL": {
     "id": 3425505,
-    "neighbours": []
+    "neighbors": []
   },
   "GM": {
     "id": 2413451,
-    "neighbours": [
+    "neighbors": [
       "SN"
     ]
   },
   "GN": {
     "id": 2420477,
-    "neighbours": [
+    "neighbors": [
       "GW",
       "CI",
       "LR",
@@ -638,18 +638,18 @@ nbrs = {
   },
   "GP": {
     "id": 3579143,
-    "neighbours": []
+    "neighbors": []
   },
   "GQ": {
     "id": 2309096,
-    "neighbours": [
+    "neighbors": [
       "CM",
       "GA"
     ]
   },
   "GR": {
     "id": 390903,
-    "neighbours": [
+    "neighbors": [
       "AL",
       "BG",
       "MK",
@@ -658,11 +658,11 @@ nbrs = {
   },
   "GS": {
     "id": 3474415,
-    "neighbours": []
+    "neighbors": []
   },
   "GT": {
     "id": 3595528,
-    "neighbours": [
+    "neighbors": [
       "BZ",
       "SV",
       "HN",
@@ -671,18 +671,18 @@ nbrs = {
   },
   "GU": {
     "id": 4043988,
-    "neighbours": []
+    "neighbors": []
   },
   "GW": {
     "id": 2372248,
-    "neighbours": [
+    "neighbors": [
       "GN",
       "SN"
     ]
   },
   "GY": {
     "id": 3378535,
-    "neighbours": [
+    "neighbors": [
       "BR",
       "SR",
       "VE"
@@ -690,15 +690,15 @@ nbrs = {
   },
   "HK": {
     "id": 1819730,
-    "neighbours": []
+    "neighbors": []
   },
   "HM": {
     "id": 1547314,
-    "neighbours": []
+    "neighbors": []
   },
   "HN": {
     "id": 3608932,
-    "neighbours": [
+    "neighbors": [
       "SV",
       "GT",
       "NI"
@@ -706,7 +706,7 @@ nbrs = {
   },
   "HR": {
     "id": 3202326,
-    "neighbours": [
+    "neighbors": [
       "BA",
       "HU",
       "ME",
@@ -716,13 +716,13 @@ nbrs = {
   },
   "HT": {
     "id": 3723988,
-    "neighbours": [
+    "neighbors": [
       "DO"
     ]
   },
   "HU": {
     "id": 719819,
-    "neighbours": [
+    "neighbors": [
       "AT",
       "HR",
       "RO",
@@ -734,7 +734,7 @@ nbrs = {
   },
   "ID": {
     "id": 1643084,
-    "neighbours": [
+    "neighbors": [
       "TL",
       "MY",
       "PG"
@@ -742,13 +742,13 @@ nbrs = {
   },
   "IE": {
     "id": 2963597,
-    "neighbours": [
+    "neighbors": [
       "GB"
     ]
   },
   "IL": {
     "id": 294640,
-    "neighbours": [
+    "neighbors": [
       "EG",
       "JO",
       "LB",
@@ -758,11 +758,11 @@ nbrs = {
   },
   "IM": {
     "id": 3042225,
-    "neighbours": []
+    "neighbors": []
   },
   "IN": {
     "id": 1269750,
-    "neighbours": [
+    "neighbors": [
       "BD",
       "BT",
       "CN",
@@ -773,11 +773,11 @@ nbrs = {
   },
   "IO": {
     "id": 1282588,
-    "neighbours": []
+    "neighbors": []
   },
   "IQ": {
     "id": 99237,
-    "neighbours": [
+    "neighbors": [
       "IR",
       "JO",
       "KW",
@@ -788,7 +788,7 @@ nbrs = {
   },
   "IR": {
     "id": 130758,
-    "neighbours": [
+    "neighbors": [
       "AF",
       "AM",
       "AZ",
@@ -800,11 +800,11 @@ nbrs = {
   },
   "IS": {
     "id": 2629691,
-    "neighbours": []
+    "neighbors": []
   },
   "IT": {
     "id": 3175395,
-    "neighbours": [
+    "neighbors": [
       "AT",
       "FR",
       "SM",
@@ -815,15 +815,15 @@ nbrs = {
   },
   "JE": {
     "id": 3042142,
-    "neighbours": []
+    "neighbors": []
   },
   "JM": {
     "id": 3489940,
-    "neighbours": []
+    "neighbors": []
   },
   "JO": {
     "id": 248816,
-    "neighbours": [
+    "neighbors": [
       "IQ",
       "IL",
       "PS",
@@ -833,11 +833,11 @@ nbrs = {
   },
   "JP": {
     "id": 1861060,
-    "neighbours": []
+    "neighbors": []
   },
   "KE": {
     "id": 192950,
-    "neighbours": [
+    "neighbors": [
       "ET",
       "SO",
       "SS",
@@ -847,7 +847,7 @@ nbrs = {
   },
   "KG": {
     "id": 1527747,
-    "neighbours": [
+    "neighbors": [
       "CN",
       "KZ",
       "TJ",
@@ -856,7 +856,7 @@ nbrs = {
   },
   "KH": {
     "id": 1831722,
-    "neighbours": [
+    "neighbors": [
       "LA",
       "TH",
       "VN"
@@ -864,19 +864,19 @@ nbrs = {
   },
   "KI": {
     "id": 4030945,
-    "neighbours": []
+    "neighbors": []
   },
   "KM": {
     "id": 921929,
-    "neighbours": []
+    "neighbors": []
   },
   "KN": {
     "id": 3575174,
-    "neighbours": []
+    "neighbors": []
   },
   "KP": {
     "id": 1873107,
-    "neighbours": [
+    "neighbors": [
       "CN",
       "RU",
       "KR"
@@ -884,24 +884,24 @@ nbrs = {
   },
   "KR": {
     "id": 1835841,
-    "neighbours": [
+    "neighbors": [
       "KP"
     ]
   },
   "KW": {
     "id": 285570,
-    "neighbours": [
+    "neighbors": [
       "IQ",
       "SA"
     ]
   },
   "KY": {
     "id": 3580718,
-    "neighbours": []
+    "neighbors": []
   },
   "KZ": {
     "id": 1522867,
-    "neighbours": [
+    "neighbors": [
       "CN",
       "KG",
       "RU",
@@ -911,7 +911,7 @@ nbrs = {
   },
   "LA": {
     "id": 1655842,
-    "neighbours": [
+    "neighbors": [
       "KH",
       "CN",
       "MM",
@@ -921,29 +921,29 @@ nbrs = {
   },
   "LB": {
     "id": 272103,
-    "neighbours": [
+    "neighbors": [
       "IL",
       "SY"
     ]
   },
   "LC": {
     "id": 3576468,
-    "neighbours": []
+    "neighbors": []
   },
   "LI": {
     "id": 3042058,
-    "neighbours": [
+    "neighbors": [
       "AT",
       "CH"
     ]
   },
   "LK": {
     "id": 1227603,
-    "neighbours": []
+    "neighbors": []
   },
   "LR": {
     "id": 2275384,
-    "neighbours": [
+    "neighbors": [
       "GN",
       "CI",
       "SL"
@@ -951,13 +951,13 @@ nbrs = {
   },
   "LS": {
     "id": 932692,
-    "neighbours": [
+    "neighbors": [
       "ZA"
     ]
   },
   "LT": {
     "id": 597427,
-    "neighbours": [
+    "neighbors": [
       "BY",
       "LV",
       "PL",
@@ -966,7 +966,7 @@ nbrs = {
   },
   "LU": {
     "id": 2960313,
-    "neighbours": [
+    "neighbors": [
       "BE",
       "FR",
       "DE"
@@ -974,7 +974,7 @@ nbrs = {
   },
   "LV": {
     "id": 458258,
-    "neighbours": [
+    "neighbors": [
       "BY",
       "EE",
       "LT",
@@ -983,7 +983,7 @@ nbrs = {
   },
   "LY": {
     "id": 2215636,
-    "neighbours": [
+    "neighbors": [
       "DZ",
       "TD",
       "EG",
@@ -994,7 +994,7 @@ nbrs = {
   },
   "MA": {
     "id": 2542007,
-    "neighbours": [
+    "neighbors": [
       "DZ",
       "ES",
       "EH"
@@ -1002,20 +1002,20 @@ nbrs = {
   },
   "MC": {
     "id": 2993457,
-    "neighbours": [
+    "neighbors": [
       "FR"
     ]
   },
   "MD": {
     "id": 617790,
-    "neighbours": [
+    "neighbors": [
       "RO",
       "UA"
     ]
   },
   "ME": {
     "id": 3194884,
-    "neighbours": [
+    "neighbors": [
       "AL",
       "BA",
       "HR",
@@ -1025,21 +1025,21 @@ nbrs = {
   },
   "MF": {
     "id": 3578421,
-    "neighbours": [
+    "neighbors": [
       "SX"
     ]
   },
   "MG": {
     "id": 1062947,
-    "neighbours": []
+    "neighbors": []
   },
   "MH": {
     "id": 2080185,
-    "neighbours": []
+    "neighbors": []
   },
   "MK": {
     "id": 718075,
-    "neighbours": [
+    "neighbors": [
       "AL",
       "BG",
       "GR",
@@ -1049,7 +1049,7 @@ nbrs = {
   },
   "ML": {
     "id": 2453866,
-    "neighbours": [
+    "neighbors": [
       "DZ",
       "BF",
       "GN",
@@ -1061,7 +1061,7 @@ nbrs = {
   },
   "MM": {
     "id": 1327865,
-    "neighbours": [
+    "neighbors": [
       "BD",
       "CN",
       "IN",
@@ -1071,26 +1071,26 @@ nbrs = {
   },
   "MN": {
     "id": 2029969,
-    "neighbours": [
+    "neighbors": [
       "CN",
       "RU"
     ]
   },
   "MO": {
     "id": 1821275,
-    "neighbours": []
+    "neighbors": []
   },
   "MP": {
     "id": 4041468,
-    "neighbours": []
+    "neighbors": []
   },
   "MQ": {
     "id": 3570311,
-    "neighbours": []
+    "neighbors": []
   },
   "MR": {
     "id": 2378080,
-    "neighbours": [
+    "neighbors": [
       "DZ",
       "ML",
       "SN",
@@ -1099,23 +1099,23 @@ nbrs = {
   },
   "MS": {
     "id": 3578097,
-    "neighbours": []
+    "neighbors": []
   },
   "MT": {
     "id": 2562770,
-    "neighbours": []
+    "neighbors": []
   },
   "MU": {
     "id": 934292,
-    "neighbours": []
+    "neighbors": []
   },
   "MV": {
     "id": 1282028,
-    "neighbours": []
+    "neighbors": []
   },
   "MW": {
     "id": 927384,
-    "neighbours": [
+    "neighbors": [
       "MZ",
       "TZ",
       "ZM"
@@ -1123,7 +1123,7 @@ nbrs = {
   },
   "MX": {
     "id": 3996063,
-    "neighbours": [
+    "neighbors": [
       "BZ",
       "GT",
       "US"
@@ -1131,7 +1131,7 @@ nbrs = {
   },
   "MY": {
     "id": 1733045,
-    "neighbours": [
+    "neighbors": [
       "BN",
       "ID",
       "TH"
@@ -1139,7 +1139,7 @@ nbrs = {
   },
   "MZ": {
     "id": 1036973,
-    "neighbours": [
+    "neighbors": [
       "MW",
       "ZA",
       "SZ",
@@ -1150,7 +1150,7 @@ nbrs = {
   },
   "NA": {
     "id": 3355338,
-    "neighbours": [
+    "neighbors": [
       "AO",
       "BW",
       "ZA",
@@ -1159,11 +1159,11 @@ nbrs = {
   },
   "NC": {
     "id": 2139685,
-    "neighbours": []
+    "neighbors": []
   },
   "NE": {
     "id": 2440476,
-    "neighbours": [
+    "neighbors": [
       "DZ",
       "BJ",
       "BF",
@@ -1175,11 +1175,11 @@ nbrs = {
   },
   "NF": {
     "id": 2155115,
-    "neighbours": []
+    "neighbors": []
   },
   "NG": {
     "id": 2328926,
-    "neighbours": [
+    "neighbors": [
       "BJ",
       "CM",
       "TD",
@@ -1188,21 +1188,21 @@ nbrs = {
   },
   "NI": {
     "id": 3617476,
-    "neighbours": [
+    "neighbors": [
       "CR",
       "HN"
     ]
   },
   "NL": {
     "id": 2750405,
-    "neighbours": [
+    "neighbors": [
       "BE",
       "DE"
     ]
   },
   "NO": {
     "id": 3144096,
-    "neighbours": [
+    "neighbors": [
       "FI",
       "RU",
       "SE"
@@ -1210,26 +1210,26 @@ nbrs = {
   },
   "NP": {
     "id": 1282988,
-    "neighbours": [
+    "neighbors": [
       "CN",
       "IN"
     ]
   },
   "NR": {
     "id": 2110425,
-    "neighbours": []
+    "neighbors": []
   },
   "NU": {
     "id": 4036232,
-    "neighbours": []
+    "neighbors": []
   },
   "NZ": {
     "id": 2186224,
-    "neighbours": []
+    "neighbors": []
   },
   "OM": {
     "id": 286963,
-    "neighbours": [
+    "neighbors": [
       "SA",
       "AE",
       "YE"
@@ -1237,14 +1237,14 @@ nbrs = {
   },
   "PA": {
     "id": 3703430,
-    "neighbours": [
+    "neighbors": [
       "CO",
       "CR"
     ]
   },
   "PE": {
     "id": 3932488,
-    "neighbours": [
+    "neighbors": [
       "BO",
       "BR",
       "CL",
@@ -1254,21 +1254,21 @@ nbrs = {
   },
   "PF": {
     "id": 4030656,
-    "neighbours": []
+    "neighbors": []
   },
   "PG": {
     "id": 2088628,
-    "neighbours": [
+    "neighbors": [
       "ID"
     ]
   },
   "PH": {
     "id": 1694008,
-    "neighbours": []
+    "neighbors": []
   },
   "PK": {
     "id": 1168579,
-    "neighbours": [
+    "neighbors": [
       "AF",
       "CN",
       "IN",
@@ -1277,7 +1277,7 @@ nbrs = {
   },
   "PL": {
     "id": 798544,
-    "neighbours": [
+    "neighbors": [
       "BY",
       "CZ",
       "DE",
@@ -1289,36 +1289,36 @@ nbrs = {
   },
   "PM": {
     "id": 3424932,
-    "neighbours": []
+    "neighbors": []
   },
   "PN": {
     "id": 4030699,
-    "neighbours": []
+    "neighbors": []
   },
   "PR": {
     "id": 4566966,
-    "neighbours": []
+    "neighbors": []
   },
   "PS": {
     "id": 6254930,
-    "neighbours": [
+    "neighbors": [
       "IL",
       "JO"
     ]
   },
   "PT": {
     "id": 2264397,
-    "neighbours": [
+    "neighbors": [
       "ES"
     ]
   },
   "PW": {
     "id": 1559582,
-    "neighbours": []
+    "neighbors": []
   },
   "PY": {
     "id": 3437598,
-    "neighbours": [
+    "neighbors": [
       "AR",
       "BO",
       "BR"
@@ -1326,17 +1326,17 @@ nbrs = {
   },
   "QA": {
     "id": 289688,
-    "neighbours": [
+    "neighbors": [
       "SA"
     ]
   },
   "RE": {
     "id": 935317,
-    "neighbours": []
+    "neighbors": []
   },
   "RO": {
     "id": 798549,
-    "neighbours": [
+    "neighbors": [
       "BG",
       "HU",
       "MD",
@@ -1346,7 +1346,7 @@ nbrs = {
   },
   "RS": {
     "id": 6290252,
-    "neighbours": [
+    "neighbors": [
       "AL",
       "BA",
       "BG",
@@ -1360,7 +1360,7 @@ nbrs = {
   },
   "RU": {
     "id": 2017370,
-    "neighbours": [
+    "neighbors": [
       "AZ",
       "BY",
       "CN",
@@ -1379,7 +1379,7 @@ nbrs = {
   },
   "RW": {
     "id": 49518,
-    "neighbours": [
+    "neighbors": [
       "BI",
       "CD",
       "TZ",
@@ -1388,7 +1388,7 @@ nbrs = {
   },
   "SA": {
     "id": 102358,
-    "neighbours": [
+    "neighbors": [
       "IQ",
       "JO",
       "KW",
@@ -1400,15 +1400,15 @@ nbrs = {
   },
   "SB": {
     "id": 2103350,
-    "neighbours": []
+    "neighbors": []
   },
   "SC": {
     "id": 241170,
-    "neighbours": []
+    "neighbors": []
   },
   "SD": {
     "id": 366755,
-    "neighbours": [
+    "neighbors": [
       "CF",
       "TD",
       "EG",
@@ -1420,22 +1420,22 @@ nbrs = {
   },
   "SE": {
     "id": 2661886,
-    "neighbours": [
+    "neighbors": [
       "FI",
       "NO"
     ]
   },
   "SG": {
     "id": 1880251,
-    "neighbours": []
+    "neighbors": []
   },
   "SH": {
     "id": 3370751,
-    "neighbours": []
+    "neighbors": []
   },
   "SI": {
     "id": 3190538,
-    "neighbours": [
+    "neighbors": [
       "AT",
       "HR",
       "HU",
@@ -1444,11 +1444,11 @@ nbrs = {
   },
   "SJ": {
     "id": 607072,
-    "neighbours": []
+    "neighbors": []
   },
   "SK": {
     "id": 3057568,
-    "neighbours": [
+    "neighbors": [
       "AT",
       "CZ",
       "HU",
@@ -1458,20 +1458,20 @@ nbrs = {
   },
   "SL": {
     "id": 2403846,
-    "neighbours": [
+    "neighbors": [
       "GN",
       "LR"
     ]
   },
   "SM": {
     "id": 3168068,
-    "neighbours": [
+    "neighbors": [
       "IT"
     ]
   },
   "SN": {
     "id": 2245662,
-    "neighbours": [
+    "neighbors": [
       "GM",
       "GN",
       "GW",
@@ -1481,7 +1481,7 @@ nbrs = {
   },
   "SO": {
     "id": 51537,
-    "neighbours": [
+    "neighbors": [
       "DJ",
       "ET",
       "KE"
@@ -1489,7 +1489,7 @@ nbrs = {
   },
   "SR": {
     "id": 3382998,
-    "neighbours": [
+    "neighbors": [
       "BR",
       "GF",
       "GY"
@@ -1497,7 +1497,7 @@ nbrs = {
   },
   "SS": {
     "id": 7909807,
-    "neighbours": [
+    "neighbors": [
       "CF",
       "CD",
       "ET",
@@ -1508,24 +1508,24 @@ nbrs = {
   },
   "ST": {
     "id": 2410758,
-    "neighbours": []
+    "neighbors": []
   },
   "SV": {
     "id": 3585968,
-    "neighbours": [
+    "neighbors": [
       "GT",
       "HN"
     ]
   },
   "SX": {
     "id": 7609695,
-    "neighbours": [
+    "neighbors": [
       "MF"
     ]
   },
   "SY": {
     "id": 163843,
-    "neighbours": [
+    "neighbors": [
       "IQ",
       "IL",
       "JO",
@@ -1535,18 +1535,18 @@ nbrs = {
   },
   "SZ": {
     "id": 934841,
-    "neighbours": [
+    "neighbors": [
       "MZ",
       "ZA"
     ]
   },
   "TC": {
     "id": 3576916,
-    "neighbours": []
+    "neighbors": []
   },
   "TD": {
     "id": 2434508,
-    "neighbours": [
+    "neighbors": [
       "CM",
       "CF",
       "LY",
@@ -1557,11 +1557,11 @@ nbrs = {
   },
   "TF": {
     "id": 1546748,
-    "neighbours": []
+    "neighbors": []
   },
   "TG": {
     "id": 2363686,
-    "neighbours": [
+    "neighbors": [
       "BJ",
       "BF",
       "GH"
@@ -1569,7 +1569,7 @@ nbrs = {
   },
   "TH": {
     "id": 1605651,
-    "neighbours": [
+    "neighbors": [
       "KH",
       "LA",
       "MY",
@@ -1578,7 +1578,7 @@ nbrs = {
   },
   "TJ": {
     "id": 1220409,
-    "neighbours": [
+    "neighbors": [
       "AF",
       "CN",
       "KG",
@@ -1587,17 +1587,17 @@ nbrs = {
   },
   "TK": {
     "id": 4031074,
-    "neighbours": []
+    "neighbors": []
   },
   "TL": {
     "id": 1966436,
-    "neighbours": [
+    "neighbors": [
       "ID"
     ]
   },
   "TM": {
     "id": 1218197,
-    "neighbours": [
+    "neighbors": [
       "AF",
       "IR",
       "KZ",
@@ -1606,18 +1606,18 @@ nbrs = {
   },
   "TN": {
     "id": 2464461,
-    "neighbours": [
+    "neighbors": [
       "DZ",
       "LY"
     ]
   },
   "TO": {
     "id": 4032283,
-    "neighbours": []
+    "neighbors": []
   },
   "TR": {
     "id": 298795,
-    "neighbours": [
+    "neighbors": [
       "AM",
       "AZ",
       "BG",
@@ -1630,19 +1630,19 @@ nbrs = {
   },
   "TT": {
     "id": 3573591,
-    "neighbours": []
+    "neighbors": []
   },
   "TV": {
     "id": 2110297,
-    "neighbours": []
+    "neighbors": []
   },
   "TW": {
     "id": 1668284,
-    "neighbours": []
+    "neighbors": []
   },
   "TZ": {
     "id": 149590,
-    "neighbours": [
+    "neighbors": [
       "BI",
       "CD",
       "KE",
@@ -1655,7 +1655,7 @@ nbrs = {
   },
   "UA": {
     "id": 690791,
-    "neighbours": [
+    "neighbors": [
       "BY",
       "HU",
       "MD",
@@ -1667,7 +1667,7 @@ nbrs = {
   },
   "UG": {
     "id": 226074,
-    "neighbours": [
+    "neighbors": [
       "CD",
       "KE",
       "RW",
@@ -1677,11 +1677,11 @@ nbrs = {
   },
   "UM": {
     "id": 5854968,
-    "neighbours": []
+    "neighbors": []
   },
   "US": {
     "id": 6252001,
-    "neighbours": [
+    "neighbors": [
       "CA",
       "CU",
       "MX"
@@ -1689,14 +1689,14 @@ nbrs = {
   },
   "UY": {
     "id": 3439705,
-    "neighbours": [
+    "neighbors": [
       "AR",
       "BR"
     ]
   },
   "UZ": {
     "id": 1512440,
-    "neighbours": [
+    "neighbors": [
       "AF",
       "KZ",
       "KG",
@@ -1706,17 +1706,17 @@ nbrs = {
   },
   "VA": {
     "id": 3164670,
-    "neighbours": [
+    "neighbors": [
       "IT"
     ]
   },
   "VC": {
     "id": 3577815,
-    "neighbours": []
+    "neighbors": []
   },
   "VE": {
     "id": 3625428,
-    "neighbours": [
+    "neighbors": [
       "BR",
       "CO",
       "GY"
@@ -1724,15 +1724,15 @@ nbrs = {
   },
   "VG": {
     "id": 3577718,
-    "neighbours": []
+    "neighbors": []
   },
   "VI": {
     "id": 4796775,
-    "neighbours": []
+    "neighbors": []
   },
   "VN": {
     "id": 1562822,
-    "neighbours": [
+    "neighbors": [
       "KH",
       "CN",
       "LA"
@@ -1740,19 +1740,19 @@ nbrs = {
   },
   "VU": {
     "id": 2134431,
-    "neighbours": []
+    "neighbors": []
   },
   "WF": {
     "id": 4034749,
-    "neighbours": []
+    "neighbors": []
   },
   "WS": {
     "id": 4034894,
-    "neighbours": []
+    "neighbors": []
   },
   "XK": {
     "id": 831053,
-    "neighbours": [
+    "neighbors": [
       "AL",
       "MK",
       "ME",
@@ -1761,18 +1761,18 @@ nbrs = {
   },
   "YE": {
     "id": 69543,
-    "neighbours": [
+    "neighbors": [
       "OM",
       "SA"
     ]
   },
   "YT": {
     "id": 1024031,
-    "neighbours": []
+    "neighbors": []
   },
   "ZA": {
     "id": 953987,
-    "neighbours": [
+    "neighbors": [
       "BW",
       "LS",
       "MZ",
@@ -1783,7 +1783,7 @@ nbrs = {
   },
   "ZM": {
     "id": 895949,
-    "neighbours": [
+    "neighbors": [
       "AO",
       "CD",
       "MW",
@@ -1795,7 +1795,7 @@ nbrs = {
   },
   "ZW": {
     "id": 878675,
-    "neighbours": [
+    "neighbors": [
       "BW",
       "MZ",
       "ZA",
