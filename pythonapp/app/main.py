@@ -8,6 +8,7 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import HTMLResponse
 import shutil
 import cv2
+
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 # https://fastapi.tiangolo.com/tutorial/cors/
 from fastapi.middleware.cors import CORSMiddleware
@@ -20,29 +21,34 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins="*",
+    allow_origins="*", #Tell browsers we allow cross-origin traffic
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+
 @app.get("/hello")
 def read_root():
-  return {"Hello": "World"}
+    return {"Hello": "World"}
+
 
 @app.post("/upload/")
 async def create_upload_file(file: UploadFile = File(...)):
-  file_location = f"/tmp/{file.filename}"
-  with open(file_location, "wb+") as file_object:
-    shutil.copyfileobj(file.file, file_object)
+    file_location = f"/tmp/{file.filename}"
+    with open(file_location, "wb+") as file_object:
+        shutil.copyfileobj(file.file, file_object)
 
-  sample_image = cv2.imread(file_location)
-  mean = sample_image.mean() 
-  return {"info": f"file '{file.filename}' saved at '{file_location}', mean val {mean}"}
+    sample_image = cv2.imread(file_location)
+    mean = sample_image.mean()
+    return {
+        "info": f"file '{file.filename}' saved at '{file_location}', mean val {mean}"
+    }
+
 
 @app.get("/")
 async def main():
-  content = """
+    content = """
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,11 +61,12 @@ async def main():
 </body>
 </html>
     """
-  return HTMLResponse(content=content)
+    return HTMLResponse(content=content)
+
 
 @app.get("/upload")
 async def main():
-  content = """
+    content = """
 <!DOCTYPE html>
 <html>
 <head>
@@ -79,38 +86,12 @@ async def main():
 </body>
 </html>
     """
-  return HTMLResponse(content=content)
+    return HTMLResponse(content=content)
 
-@app.get("/game")
-async def main():
-  content = """
+
+def getHTMLForGame(start="", end="", path=""):
+    result = """
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Country paths</title>
-</head>
-<body>
-    <form action="/path" method="get">
-        <!-- File input field -->
-        <input type="text" id="start" name="start">
-        <input type="text" id="end" name="end">
-
-        <br><br>
-         
-        <!-- Submit button -->
-        <input type="submit" value="Get path">
-    </form>
-</body>
-</html>
-    """
-  return HTMLResponse(content=content)
-
-@app.get("/path")
-async def find_path(start: str = 'Portugal', end: str = 'Germany'):
-
-  path =  getShortestPathUsingNames(start, end)
-  print(path)
-  result = """<!DOCTYPE html>
 <html>
 <head>
     <title>Country paths</title>
@@ -126,22 +107,55 @@ async def find_path(start: str = 'Portugal', end: str = 'Germany'):
         <!-- Submit button -->
         <input type="submit" value="Get path">
     </form>
-"""  
-  result = result + 'Path from ' + start + ' to ' + end + """
-    <div>
 """
-  if len(path) == 0:
-    result = result + 'You shall not pass'
-  for country in path:
-    result = result + '<br/>' + country
-  result = result + """
-</div>
+    if start != "":
+        # This signals that we have played
+        result = (
+            result
+            + "Path from "
+            + start
+            + " to "
+            + end
+            + """
+<div>
+"""
+        )
+        if len(path) == 0:
+            result = result + "You shall not pass"
+        for country in path:
+            result = result + "<br/>" + country
+        result = (
+            result
+            + """
+  </div>"""
+        )
+    result = (
+        result
+        + """
 </body>
 </html>
     """
-  return HTMLResponse(content=result)
+    )
+    return result
+
+
+@app.get("/game")
+async def main():
+    content = getHTMLForGame()
+    return HTMLResponse(content=content)
+
+
+@app.get("/path")
+async def find_path(start: str = "", end: str = ""):
+
+    path = getShortestPathUsingNames(start, end)
+    print(path)
+
+    content = getHTMLForGame(start, end, path)
+    return HTMLResponse(content=content)
+
 
 @app.get("/pathRaw")
-async def find_path(start: str = 'Portugal', end: str = 'Germany'):
-  path =  getShortestPathUsingNames(start, end)
-  return path
+async def find_path(start: str = "", end: str = ""):
+    path = getShortestPathUsingNames(start, end)
+    return path

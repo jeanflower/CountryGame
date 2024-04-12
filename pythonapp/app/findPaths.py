@@ -1,42 +1,33 @@
+from .codes import codes
+from .neighbors import nbrs
 
-#countries = ['france','spain','germany','australlia','portugal']
-#nbrs = dict()
-#nbrs['france'] = ['spain', 'germany']
-#nbrs['spain'] = ['france', 'portugal']
-#nbrs['portugal'] = ['spain']
-#nbrs['germany'] = ['france']
-#nbrs['australlia'] = []
+# Global data about neighboring countries
+nbr_data = nbrs
 
-import json
- 
-nbrsf = open('./app/neighbors.json') 
-nbr_data = json.load(nbrsf)
+# Global data to help with converting codes into readable country names
+codes_data = codes
 
-emptyObj = dict()
-emptyObj['neighbours'] = []
+# If the country code x isn't recognised, we won't get data about its
+# neighbors from nbr_data, so build an empty dict() as backup
+noNeighbors = dict()
+noNeighbors["neighbors"] = []
 
-codesf = open('./app/codes.json')
-codes_data = json.load(codesf)
-
-# print(codes_data)
-
-# get all the neighbours of a given place x
+# get all the neighbors of a given place x
 # returns an array
 def getNeighbors(x):
-    # pass in emptyObj which will be returned if x is not found as a key
-    return nbr_data.get(x, emptyObj).get("neighbours")
-
-#print(getNeighbors('AE'))
+    # pass in noNeighbors which will be returned if x is not found as a key
+    return nbr_data.get(x, noNeighbors).get("neighbors")
 
 # find a shortest path from start to end
+# implements Dijkstra's algorithm
 def getShortestPathUsingCodes(start, end):
-
+    # We can switch on debug printing if we need to troubleshoot
     printDebug = False
 
     # collect together an array of possible beginnings of paths
     # from start
     # we will take these beginnings and 'grow' or extend them
-    # adding neighbours at the end
+    # adding neighbors at the end
     # and make new beginnings
     pathsToExtend = [[start]]
 
@@ -59,7 +50,7 @@ def getShortestPathUsingCodes(start, end):
         # work out where this path to extend might go next
         # get its end (the last place in the path)
         endOfPathToExtend = pathToExtend[len(pathToExtend) - 1]
-        # where might we go next - what are the neighbours of the end
+        # where might we go next - what are the neighbors of the end
         possibleExtensions = getNeighbors(endOfPathToExtend)
 
         if printDebug:
@@ -72,10 +63,12 @@ def getShortestPathUsingCodes(start, end):
             if possibleNextStep in pathToExtend:
                 # print('do not extend with ',ext, 'because its already in ', pathToExtend)
                 continue
-            
 
-            bestPathSoFarToExt = bestPathTo.get(possibleNextStep, 'none')
-            if bestPathSoFarToExt != 'none' and len(bestPathSoFarToExt) <= len(pathToExtend) + 1:
+            bestPathSoFarToExt = bestPathTo.get(possibleNextStep, "none")
+            if (
+                bestPathSoFarToExt != "none"
+                and len(bestPathSoFarToExt) <= len(pathToExtend) + 1
+            ):
                 # we can't improve on what is already known
                 # print('do not extend with ',ext, 'because we already know a better or matching path there ', bestPathSoFarToExt)
                 continue
@@ -90,15 +83,15 @@ def getShortestPathUsingCodes(start, end):
             if possibleNextStep == end:
                 # print(ext, ' == ', end)
                 # print("found a path from start to end! ", newPath)
-                break # our work is done, don't add any more extensions
+                break  # our work is done, don't add any more extensions
 
             # we may want to extend this newPath even further to get to end
             # so add newPath to the pathsToExtend
             pathsToExtend.append(newPath)
 
-        if bestPathTo.get(end, 'none') != 'none':
-            break # our work is done, don't extend any more paths
-        
+        if bestPathTo.get(end, "none") != "none":
+            break  # our work is done, don't extend any more paths
+
         if printDebug:
             print("here are all our paths now")
             for path in pathsToExtend:
@@ -106,8 +99,9 @@ def getShortestPathUsingCodes(start, end):
 
         # print('---- finished extending ', pathToExtend)
 
-    #print('path from ', start, 'to ', end, ' is ', bestPathTo.get(end, 'none'))
+    # print('path from ', start, 'to ', end, ' is ', bestPathTo.get(end, 'none'))
     return bestPathTo.get(end, [])
+
 
 def hasNameFromCode(code):
     for x in codes_data:
@@ -115,17 +109,20 @@ def hasNameFromCode(code):
             return True
     return False
 
+
 def hasCodeFromName(name):
     for x in codes_data:
         if x["name"] == name:
             return True
     return False
 
+
 def findNameFromCode(code):
     for x in codes_data:
         if x["code"] == code:
             return x["name"]
     return code
+
 
 def findCodeFromName(name):
     for x in codes_data:
@@ -135,17 +132,14 @@ def findCodeFromName(name):
 
 
 def getShortestPathUsingNames(start, end):
-    if not(hasCodeFromName(start)):
-        return ['ERROR not recognised ' + start]
-    if not(hasCodeFromName(end)):
-        return ['ERROR not recognised ' + end]
-       
+    if not (hasCodeFromName(start)):
+        return ["ERROR not recognised " + start]
+    if not (hasCodeFromName(end)):
+        return ["ERROR not recognised " + end]
+
     startCode = findCodeFromName(start)
     endCode = findCodeFromName(end)
 
     codePath = getShortestPathUsingCodes(startCode, endCode)
 
     return list(map(findNameFromCode, codePath))
-
-#print(getShortestPathUsingNames('Portugal', 'Germany'))
-#print(getShortestPathUsingNames('Egypt', 'China'))
