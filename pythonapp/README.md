@@ -53,7 +53,7 @@ Opening the docker desktop application shows a container called mycontainer and 
 
 2. Create or choose a project on Google Cloud Platform and give it a name, for eaxmple, python-project.  Find the ID of this project, in the Dashboard, you'll see the name of the project and the ID that GCP assigned.  That ID will be used in further gcloud set up, the build and run commands.
 
-3. In (./buildAndRunDockerContainer.sh), at the top of the file, set the project id, the chosen region and the repo name.  Also set an image name of your choosing (e.g. my-image)  and a service name of your choosing (e.g. my-service).
+3. In (./buildAndRunDockerContainer.sh), at the top of the file, set the project id, the chosen region and a repo name of your choosing (e.g. my-repo).  Also set an image name of your choosing (e.g. my-image)  and a service name of your choosing (e.g. my-service).
 
 4. Run (./buildAndRunDockerContainer.sh).  The first time this is run in a given project which hasn't run Cloud Builr or Cloud Run before, you'll need to say y to enable each of cloudresourcemanager.googleapis.com, cloudbuild.googleapis.com and run.googleapis.com.  On subsequent runs (e.g. after a source code update), you can leave this script to run without interaction until completion.  As the script runs, you may see 'WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager.'.  This is a warning that is safe to ignore when running the docker build. 
 
