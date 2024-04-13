@@ -3,7 +3,6 @@
 # for VSCode to stop warnings, install dependencies locally e.g.
 # python3 -m pip3 install fastapi
 
-from typing import Union, Annotated
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import HTMLResponse
 import shutil
@@ -32,7 +31,7 @@ app.add_middleware(
 def read_root():
     return {"Hello": "World"}
 
-
+# the endpoint to receive a file
 @app.post("/uploadFile/")
 async def create_upload_file(file: UploadFile = File(...)):
     file_location = f"/tmp/{file.filename}"
@@ -63,7 +62,7 @@ async def main():
     """
     return HTMLResponse(content=content)
 
-
+# the page to allow users to upload a file
 @app.get("/upload")
 async def main():
     content = """
@@ -73,7 +72,7 @@ async def main():
     <title>Upload</title>
 </head>
 <body>
-    <form action="/uploadFile" method="post" enctype="multipart/form-data">
+    <form action="/uploadFile/" method="post" enctype="multipart/form-data">
         <!-- File input field -->
         <label for="file">Choosen file will be saved on server :</label>
         <input type="file" id="file" name="file" accept=".txt, .pdf, .jpg, .png">
