@@ -19,14 +19,13 @@ gcloud auth application-default set-quota-project ${GCLOUD_PROJECT_ID}
 ####  GCP build docker image
 export IMAGE_TAG=${REGION}-docker.pkg.dev/$GCLOUD_PROJECT_ID/$REPO/$IMAGE
 gcloud auth configure-docker ${REGION}-docker.pkg.dev
-gcloud builds submit --tag $IMAGE_TAG
+gcloud builds submit --tag ${IMAGE_TAG}
 # shows up in Cloud Build
 # shows up in Artefact Registry
 
 ####  GCP deploy docker image
 gcloud run deploy $SERVICE\
             --image ${IMAGE_TAG}:latest \
-            --platform managed \
             --region ${REGION} \
             --allow-unauthenticated
 # shows up in Cloud Run
