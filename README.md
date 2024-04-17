@@ -146,12 +146,23 @@ This image shows the web app and a browser view of the bucket contents.
 
 A deployed version of the app can be found [here](https://nextjs-uploaddownload-service-qzwnizxtoa-uc.a.run.app/).
 
+## firestoreapp
+
+[Link to folder](firestoreapp)
+
+A Nextjs app working with Firebase authentication and Firestore for a database (suitable for JSON-form data).
+
+This image shows the sign in and data pages.
+
+<img src="https://github.com/jeanflower/full-stack-demos/blob/main/firestoreappScreenshot.png" width=60% height=60%>
+
+A deployed version of the app can be found [here](https://firebase-auth-service-qzwnizxtoa-uc.a.run.app).
+
 # More steps
 
  - handling of secrets
  - nextjs routing, server-side work, middleware
  - Testing with jest and Cypress
- - Upload and download of text and binary files to cloud storage
  - Encryption of data
  - Sending emails from code
  - Cookie management

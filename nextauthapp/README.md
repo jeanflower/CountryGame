@@ -12,10 +12,10 @@ In https://console.firebase.google.com/, have a firebase Project. Enable Authent
 
 Have a firebase App, of a Web App type. Get an apiKey and authDomain for our firebase app and set those values in firebaseConfig.js.  It's OK for these keys to be available in client code, see https://firebase.google.com/docs/projects/api-keys.
 
+Configure the site for redirect after customers verify their email. Add a (gitignored) .env file alongside the .env.sample file and add the URL where you're going to run the site, see .env.sample for an example.  Add the URL you set for NEXT_PUBLIC_SIGNIN_URL as an Authorized Domain in Firebase settings.
+
 ## To run the code locally
 Pre-requisites - nodejs, npm.
-
-Configure the site for redirect after customers verify their email. Add a (gitignored) .env file alongside the .env.sample file and add the URL where you're going to run the site, see .env.sample for an example.
 
 Clone this repo and ```npm install```.
 
