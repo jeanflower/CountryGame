@@ -22,7 +22,7 @@ export default async function getDocuments(
     const querySnapshot = await getDocs(q);
     querySnapshot.forEach((doc: any) => {
       console.log(`doc.data() = ${inspect(doc.data())}`);
-      result.push(doc.data().purpose);
+      result.push(doc.data().value);
     });
 
   } catch (e) {

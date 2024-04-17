@@ -15,10 +15,14 @@ export default function AddDataPanel({
   const handleForm = async (event: any) => {
     event.preventDefault();
     console.log(`add data ${newData}`);
-    await addData(email, newData);
-    alert('data added');
-    setNewData('');
-    refreshPage(newData);
+    const response = await addData(email, newData);
+    if (response.error) {
+      alert(response.error);
+    } else {
+      alert('data added');
+      setNewData('');
+      refreshPage(newData);
+    }
   }
 
   return (
